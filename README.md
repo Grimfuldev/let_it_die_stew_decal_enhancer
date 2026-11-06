@@ -238,4 +238,5 @@ LET IT DIE, its characters, names, artwork and setting remain their property.
 Back up your save before patching. Use at your own risk.
 ```
 The tutorial: https://youtu.be/5HTrba4Dw4k
+
 Thanks to oberlinx for the decal viewer site, which made building the decal list a lot easier: https://oberlinx.github.io/let-it-die-model-viewer/decals.html
