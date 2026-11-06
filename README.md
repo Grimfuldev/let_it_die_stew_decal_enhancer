@@ -48,7 +48,7 @@ in Settings, Refresh, or just come back to this window.
 ```
 Replace the program .exe with the new one and keep your other files.
 settings.ini     updated on start: your values are kept and new options
-                 (Bake on launch) are added, unticked.
+                 (Bake on launch, Efficient) are added, unticked.
 decal_max.json   same format, your maxes are kept.
 masters.db       nothing to do. A stew table patched by an early build that
                  has no list of added decals is converted on start (only when
@@ -198,6 +198,10 @@ Browse             RMB on the ✕ next to it lists these keywords.
 Messages     what the program did. RMB on it clears the messages.
 Shortcut     click, then press a key: that key hides/shows the window.
              RMB removes it.
+Efficient    ticked = no decal images (tiles show the decal names) to use
+             less memory once you are done editing. Saves, bakes and
+             everything else keep working. Unticked = the images are read
+             from the game files again.
 Refresh      re-read the save, masters.db and the decal art, apply Browse and
              Sort again, and report how many decals the stew can give right now
 Settings     paths, SHA state, Get SHA unlocker in Github, Check again,
@@ -209,7 +213,8 @@ Settings     paths, SHA state, Get SHA unlocker in Github, Check again,
 ```
 premium_decals.json            decal list (ids, names, stars, groups, stew odds)
 master_skillgacha_odds.json    original stew table, used by Revert patch
-settings.ini                   paths, shortcut, sort, groups, show stars, bake on launch
+settings.ini                   paths, shortcut, sort, groups, show stars, bake on launch,
+                               efficient
 decal_max.json                 your max per decal (missing = Inf)
 stew.lock                      while running; starting again closes the old one
 UI_Assets                      UI background.webp, let it die cursor.webp, lidico.ico
