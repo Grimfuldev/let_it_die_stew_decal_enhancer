@@ -3,7 +3,7 @@ Stew Decal Enhancer - choose how many of each premium skill decal the
 Mushroom Lady's stew may still give you in the LET IT DIE offline edition.
 
 Decal art is read from the player's own game install while the program runs
-and is only held in memory. Nothing from the game is written to disk.
+and is only held in memory.
 """
 from __future__ import annotations
 
@@ -32,7 +32,7 @@ if sys.platform == "win32":
 # Constants
 # ---------------------------------------------------------------------------
 
-VERSION = "v0.1"
+VERSION = "v0.2"
 APP_TITLE = "Stew Decal Enhancer"
 APP_ID = "Grimfuldev.LID.StewDecalEnhancer"
 
@@ -1103,6 +1103,7 @@ SETTING_DEFAULTS = {
     "sort": "Max val",
     "include_collab": True,
     "include_lost_bag": True,
+    "bake_on_launch": False,
 }
 
 
@@ -1798,6 +1799,10 @@ class App:
         if self.startup_error:
             self.log(self.startup_error)
         self.reload_all(first=True)
+        if self.settings["bake_on_launch"] and self.dirty:
+            # decals capped (or settings changed) while the program was closed
+            self.log("Bake on launch: the stew is not up to date with your save.")
+            self.bake()
         self.root.after(200, self.poll_save)
         self.root.after(100, self.poll_art)
         self.root.after(100, self.poll_hotkey)
@@ -2652,6 +2657,11 @@ class SettingsPopup(Popup):
         tk.Checkbutton(box, text="Show stars", variable=self.var_stars, command=self.on_stars,
                        bg=PANEL, fg=TEXT_FG, activebackground=PANEL, activeforeground=TEXT_FG,
                        selectcolor=ENTRY_BG, font=("Segoe UI", 11)).pack(anchor="w")
+        # bake at program start when the stew no longer matches the save / your settings
+        self.var_launch = tk.BooleanVar(value=app.settings["bake_on_launch"])
+        tk.Checkbutton(box, text="Bake on launch", variable=self.var_launch, command=self.on_launch,
+                       bg=PANEL, fg=TEXT_FG, activebackground=PANEL, activeforeground=TEXT_FG,
+                       selectcolor=ENTRY_BG, font=("Segoe UI", 11)).pack(anchor="w")
 
         sha_row = tk.Frame(box, bg=PANEL)
         sha_row.pack(fill="x", pady=(10, 0))
@@ -2757,6 +2767,10 @@ class SettingsPopup(Popup):
         save_settings(self.app.settings)
         for t in self.app.tiles:
             t.refresh()
+
+    def on_launch(self):
+        self.app.settings["bake_on_launch"] = bool(self.var_launch.get())
+        save_settings(self.app.settings)
 
     def on_restore(self):
         self.app.restore_decals()
