@@ -3,7 +3,7 @@ Stew Decal Enhancer - choose how many of each premium skill decal the
 Mushroom Lady's stew may still give you in the LET IT DIE offline edition.
 
 Decal art is read from the player's own game install while the program runs
-and is only held in memory.
+and is only held in memory. Nothing from the game is written to disk.
 """
 from __future__ import annotations
 
@@ -567,12 +567,13 @@ def db_read_odds(path: str) -> dict:
 ADDED_TABLE = "stew_decal_enhancer_added"
 
 
-def db_read_added(path: str) -> set:
+def db_read_added(path: str):
+    """The decals this program added, or None if masters.db has no list (never patched, or v0.1)."""
     con = sqlite3.connect("file:%s?mode=ro" % path.replace("\\", "/"), uri=True, timeout=4)
     try:
         if not con.execute("SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = ?",
                            (ADDED_TABLE,)).fetchone():
-            return set()
+            return None
         return {r[0] for r in con.execute("SELECT sklid FROM %s" % ADDED_TABLE)}
     finally:
         con.close()
@@ -599,9 +600,25 @@ def db_add_missing(path: str, decals: list) -> int:
         con.close()
 
 
-def db_restore(path: str, original_rows: list) -> int:
+def db_adopt(path: str, sklids: set) -> None:
+    """v0.1 added its decals without a list: write the list for them."""
+    con = db_open(path)
+    try:
+        with con:
+            con.execute("CREATE TABLE IF NOT EXISTS %s (sklid TEXT PRIMARY KEY)" % ADDED_TABLE)
+            con.executemany("INSERT OR IGNORE INTO %s (sklid) VALUES (?)" % ADDED_TABLE,
+                            [(sid,) for sid in sklids])
+    except sqlite3.OperationalError as exc:
+        raise DbBusy(str(exc))
+    finally:
+        con.close()
+
+
+def db_restore(path: str, original_rows: list, drop_list: bool) -> int:
     """Remove the rows this program added and put the original odds back on the game's own rows.
-    Rows added by anyone else are left as they are. Returns how many rows were removed."""
+    Rows added by anyone else are left as they are. Returns how many rows were removed.
+    drop_list: also remove the (then empty) list table; Restore Decals keeps it, so masters.db
+    still counts as converted and nothing gets adopted later."""
     con = db_open(path)
     try:
         added = []
@@ -613,7 +630,10 @@ def db_restore(path: str, original_rows: list) -> int:
                             [(GACHA_ID, sid) for sid in added])
             con.executemany("UPDATE master_skillgacha_odds SET odds = ? WHERE id = ? AND sklid = ?",
                             [(int(r["odds"]), GACHA_ID, r["sklid"]) for r in original_rows])
-            con.execute("DROP TABLE IF EXISTS %s" % ADDED_TABLE)
+            if drop_list:
+                con.execute("DROP TABLE IF EXISTS %s" % ADDED_TABLE)
+            else:
+                con.execute("DELETE FROM %s" % ADDED_TABLE)
         return len(added)
     except sqlite3.OperationalError as exc:
         raise DbBusy(str(exc))
@@ -2273,9 +2293,23 @@ class App:
             return
         try:
             self.db_odds = db_read_odds(self.paths.db)
-            self.added = db_read_added(self.paths.db) & set(self.db_odds)
+            added = db_read_added(self.paths.db)
+            if added is None:
+                added = self.convert_v01()
+            self.added = added & set(self.db_odds)
         except Exception as exc:
             self.log("Could not read masters.db: %s" % exc)
+
+    def convert_v01(self) -> set:
+        """A stew table patched by v0.1 (exe patched, Lost Bag / Collab rows, no list): take those
+        rows as this program's and write the list, so v0.2 bakes and restores them as usual."""
+        ours = {d["id"] for d in self.catalog} - self.original_ids
+        rows = {sid for sid in self.db_odds if sid in ours}
+        if not rows or self.exe_state() not in ("patched", "partial"):
+            return set()
+        db_adopt(self.paths.db, rows)
+        self.log("Stew table from v0.1 converted: %d added decals recognised." % len(rows))
+        return rows
 
     def read_save(self, log_change=True) -> bool:
         path = self.paths.save
@@ -2536,7 +2570,7 @@ class App:
             return
         done = []
         try:
-            removed = db_restore(p.db, self.original_rows)
+            removed = db_restore(p.db, self.original_rows, drop_list=True)
             done.append("%d added decals removed from the stew, original odds back" % removed)
             if exe_too:
                 exe = Exe(p.exe)
@@ -2564,7 +2598,7 @@ class App:
             self.log("Nothing to restore: this program has not added any decals to the stew.")
             return
         try:
-            removed = db_restore(p.db, self.original_rows)
+            removed = db_restore(p.db, self.original_rows, drop_list=False)
         except Exception as exc:
             self.log("Restore failed, nothing changed: %s" % exc)
             return
@@ -2788,8 +2822,7 @@ def main() -> int:
     set_app_id()
     close_previous()
     write_lock()
-    if not os.path.isfile(settings_path()):
-        save_settings(load_settings())
+    save_settings(load_settings())      # creates settings.ini, or brings an older one up to date
     try:
         App().run()
     finally:
