@@ -43,6 +43,19 @@ in Settings, Refresh, or just come back to this window.
    the stew again, and the very next pull already follows it.
 ```
 
+## Updating from v0.1
+
+```
+Replace the program .exe with the new one and keep your other files.
+settings.ini     updated on start: your values are kept and new options
+                 (Bake on launch) are added, unticked.
+decal_max.json   same format, your maxes are kept.
+masters.db       nothing to do. A stew table patched by an early build that
+                 has no list of added decals is converted on start (only when
+                 the exe is patched): its Lost Bag / Collab decals are taken as
+                 this program's.
+```
+
 ## Check Lineup in the game
 
 ```
