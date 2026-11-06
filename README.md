@@ -42,7 +42,7 @@ in Settings, Refresh, or just come back to this window.
 Pulls always use the stew as it is in masters.db right now, even while the
 game is running. Only the Mushroom Lady's Check Lineup screen is built when
 you open her shop, so after a bake it keeps showing the old lineup until
-you leave and re-enter her shop (or make a pull). The program reminds you
+you leave and re-enter her shop. The program reminds you
 of this each time it changes the stew.
 ```
 
