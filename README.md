@@ -1,5 +1,10 @@
 # Stew Decal Enhancer
 
+<img width="256" height="256" alt="lidico" src="https://github.com/user-attachments/assets/e5fe0fc7-1bcb-4d1e-8270-3ebf20b4adc4" />
+<img width="1001" height="938" alt="program preview" src="https://github.com/user-attachments/assets/413b66ca-74c5-4a04-b1fa-e7b3e921c872" />
+<img width="1840" height="992" alt="image" src="https://github.com/user-attachments/assets/9c8458ba-f8dc-4865-bd88-e5267da8ea34" />
+
+
 Choose how many of each premium skill decal the Mushroom Lady's stew may still
 give you in the LET IT DIE offline edition (PC). Decals you already have enough
 of stop coming out of the stew. Lost Bag and Collab decals can be added to it.
