@@ -1,6 +1,8 @@
 # Stew Decal Enhancer
 
-<img width="256" height="256" alt="lidico" src="https://github.com/user-attachments/assets/e5fe0fc7-1bcb-4d1e-8270-3ebf20b4adc4" />
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img width="256" height="256" alt="lidico" src="https://github.com/user-attachments/assets/e5fe0fc7-1bcb-4d1e-8270-3ebf20b4adc4" />
+</div>
 <img width="1001" height="938" alt="program preview" src="https://github.com/user-attachments/assets/413b66ca-74c5-4a04-b1fa-e7b3e921c872" />
 <img width="1840" height="992" alt="image" src="https://github.com/user-attachments/assets/9c8458ba-f8dc-4865-bd88-e5267da8ea34" />
 
