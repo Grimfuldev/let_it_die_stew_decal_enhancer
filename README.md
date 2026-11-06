@@ -150,6 +150,11 @@ All maxed        If every decal you allow is already at its max, the stew can't
                  stew odds and the game picks among them as usual. As soon as
                  any decal is below its max again (sold, or max raised), the
                  stew follows your settings again.
+Bake on launch   (Settings) When ticked, the program bakes once right after it
+                 starts if the stew does not match your save and settings, e.g.
+                 a decal reached its max while the program was closed. Without
+                 it, Bake Stew just shows * until you click it (or until the
+                 bake after your next pull).
 ```
 
 ## Top bar
@@ -183,7 +188,7 @@ Shortcut     click, then press a key: that key hides/shows the window.
 Refresh      re-read the save, masters.db and the decal art, apply Browse and
              Sort again, and report how many decals the stew can give right now
 Settings     paths, SHA state, Get SHA unlocker in Github, Check again,
-             Show stars, Patch game / Revert patch, Restore Decals
+             Show stars, Bake on launch, Patch game / Revert patch, Restore Decals
 ```
 
 ## Files
@@ -191,7 +196,7 @@ Settings     paths, SHA state, Get SHA unlocker in Github, Check again,
 ```
 premium_decals.json            decal list (ids, names, stars, groups, stew odds)
 master_skillgacha_odds.json    original stew table, used by Revert patch
-settings.ini                   paths, shortcut, sort, groups, show stars
+settings.ini                   paths, shortcut, sort, groups, show stars, bake on launch
 decal_max.json                 your max per decal (missing = Inf)
 stew.lock                      while running; starting again closes the old one
 UI_Assets                      UI background.webp, let it die cursor.webp, lidico.ico
