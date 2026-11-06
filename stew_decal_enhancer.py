@@ -1047,20 +1047,35 @@ def sha_state(exe_path: str) -> str:
 # Processes
 # ---------------------------------------------------------------------------
 
+class _PROCESSENTRY32W(ctypes.Structure):
+    _fields_ = [("dwSize", ctypes.c_uint32), ("cntUsage", ctypes.c_uint32),
+                ("th32ProcessID", ctypes.c_uint32), ("th32DefaultHeapID", ctypes.c_size_t),
+                ("th32ModuleID", ctypes.c_uint32), ("cntThreads", ctypes.c_uint32),
+                ("th32ParentProcessID", ctypes.c_uint32), ("pcPriClassBase", ctypes.c_long),
+                ("dwFlags", ctypes.c_uint32), ("szExeFile", ctypes.c_wchar * 260)]
+
+
 def process_pids(image: str) -> list:
+    """Process ids of a running program, read straight from Windows (no tasklist window/process)."""
     if sys.platform != "win32":
         return []
     want = (image or "").strip().lower()
-    try:
-        out = subprocess.check_output(["tasklist", "/FO", "CSV", "/NH"], creationflags=NO_WINDOW,
-                                      stderr=subprocess.DEVNULL, text=True, errors="ignore")
-    except Exception:
+    k = ctypes.windll.kernel32
+    k.CreateToolhelp32Snapshot.restype = ctypes.c_void_p
+    snap = k.CreateToolhelp32Snapshot(0x2, 0)              # TH32CS_SNAPPROCESS
+    if not snap or snap == ctypes.c_void_p(-1).value:
         return []
     pids = []
-    for line in out.splitlines():
-        parts = [p.strip().strip('"') for p in line.strip().split('","')]
-        if len(parts) >= 2 and parts[0].lower() == want and parts[1].isdigit():
-            pids.append(int(parts[1]))
+    try:
+        entry = _PROCESSENTRY32W()
+        entry.dwSize = ctypes.sizeof(entry)
+        ok = k.Process32FirstW(ctypes.c_void_p(snap), ctypes.byref(entry))
+        while ok:
+            if entry.szExeFile.lower() == want:
+                pids.append(entry.th32ProcessID)
+            ok = k.Process32NextW(ctypes.c_void_p(snap), ctypes.byref(entry))
+    finally:
+        k.CloseHandle(ctypes.c_void_p(snap))
     return pids
 
 
@@ -1124,6 +1139,7 @@ SETTING_DEFAULTS = {
     "include_collab": True,
     "include_lost_bag": True,
     "bake_on_launch": False,
+    "efficient_mode": False,
 }
 
 
@@ -1356,6 +1372,20 @@ def _vk_from_char(ch: str) -> int:
         return ctypes.windll.user32.VkKeyScanW(ord(ch[0])) & 0xFF
     except Exception:
         return 0
+
+
+def trim_memory() -> None:
+    """Hand memory no longer in use back to Windows (Task Manager shows the lower number)."""
+    import gc
+    gc.collect()
+    if sys.platform == "win32":
+        try:
+            k = ctypes.windll.kernel32
+            k.GetCurrentProcess.restype = ctypes.c_void_p
+            k.SetProcessWorkingSetSize(ctypes.c_void_p(k.GetCurrentProcess()),
+                                       ctypes.c_size_t(-1), ctypes.c_size_t(-1))
+        except Exception:
+            pass
 
 
 def install_hotkey(ch: str, win) -> None:
@@ -1639,7 +1669,7 @@ class Tile(tk.Frame):
             self.cv.itemconfigure(self.img_id, image=photo, state="normal")
             self.cv.itemconfigure(self.name_id, state="hidden")
         else:
-            self.cv.itemconfigure(self.img_id, state="hidden")
+            self.cv.itemconfigure(self.img_id, image="", state="hidden")
             self.cv.itemconfigure(self.name_id, state="normal")
         stars = "★" * int(self.d["stars"]) if app.settings.get("show_stars") else ""
         self.cv.itemconfigure(self.stars_id, text=stars)
@@ -1788,6 +1818,8 @@ class App:
         self.art = {}
         self.photos = {}
         self.art_queue = queue.Queue()
+        self.art_gen = 0                   # bumped when the art is dropped, so a running load is ignored
+        self.efficient = bool(self.settings["efficient_mode"])
         self.include = {"mushroom_lady": True,
                         "collab": bool(self.settings["include_collab"]),
                         "bags": bool(self.settings["include_lost_bag"])}
@@ -1924,6 +1956,12 @@ class App:
         self.msg.bind("<Button-3>", lambda e: self.clear_log())
         self.hk_id = cv.create_text(0, 0, anchor="se", text="", fill="#a0a0a0", font=("Segoe UI", 12),
                                     tags="hk")
+        # Efficient mode (drawn like the group checkboxes): no decal images, the stew logic keeps running
+        self.eff_box = cv.create_rectangle(0, 0, 0, 0, outline="#7f7f7f", width=2, fill="#030303", tags="eff")
+        self.eff_tick = cv.create_rectangle(0, 0, 0, 0, outline="", fill="#ffffff", tags="eff")
+        self.eff_label = cv.create_text(0, 0, anchor="w", text="Efficient", fill="#a0a0a0",
+                                        font=("Segoe UI", 12), tags="eff")
+        cv.tag_bind("eff", "<Button-1>", lambda e: self.set_efficient(not self.efficient))
         cv.tag_bind("hk", "<Button-1>", lambda e: self.start_capture())
         cv.tag_bind("hk", "<Button-3>", lambda e: self.clear_hotkey())
         self.refresh_btn = flat_button(cv, "Refresh", lambda: self.reload_all(manual=True), fg="#e2e2e2")
@@ -1969,7 +2007,12 @@ class App:
         sb = cv.bbox(self.settings_win)
         cv.coords(self.refresh_win, (sb[0] if sb else w - 120) - 10, h - 12)
         cv.coords(self.hk_id, w - m, h - 58)
-        right = 250
+        # Efficient sits left of Shortcut at a fixed spot, so "Shortcut: press a key" still fits
+        ex, ey = w - m - 280, h - 58 - 10
+        cv.coords(self.eff_box, ex, ey - 10, ex + 20, ey + 10)
+        cv.coords(self.eff_tick, ex + 4, ey - 6, ex + 16, ey + 6)
+        cv.coords(self.eff_label, ex + 28, ey)
+        right = 290
         cv.coords(self.msg_win, m, h - 10)
         cv.itemconfigure(self.msg_win, width=max(200, w - 2 * m - right), height=foot - 22)
         if self.bg_src and (w, h) != self._bg_size:
@@ -1993,6 +2036,29 @@ class App:
             on = self.include.get(group, True)
             self.chrome.itemconfigure(tick, state="normal" if on else "hidden")
             self.chrome.itemconfigure(label, fill="#d0d0d0" if on else "#8a8a8a")
+        self.chrome.itemconfigure(self.eff_tick, state="normal" if self.efficient else "hidden")
+        self.chrome.itemconfigure(self.eff_label, fill="#d0d0d0" if self.efficient else "#a0a0a0")
+
+    def set_efficient(self, on: bool) -> None:
+        """Efficient mode: drop the decal images (tiles show names); saves, bakes and everything
+        else keep working. Off: the images are read from the game files again."""
+        self.efficient = on
+        self.settings["efficient_mode"] = on
+        save_settings(self.settings)
+        self._paint_checks()
+        if on:
+            self.art_gen += 1
+            for t in self.tiles:                    # let go of the pictures before they are deleted
+                t.cv.itemconfigure(t.img_id, image="", state="hidden")
+            self.art.clear()
+            self.photos.clear()
+            for t in self.tiles:
+                t.refresh()
+            trim_memory()
+            self.log("Efficient on: decal images are off, the stew keeps updating.")
+        else:
+            self.start_art_loader()
+            self.log("Efficient off: loading the decal images.")
 
     def toggle_group(self, group):
         self.include[group] = not self.include.get(group, True)
@@ -2044,16 +2110,19 @@ class App:
     # --- art ---------------------------------------------------------------
     def start_art_loader(self):
         cooked = self.paths.cooked
-        if not cooked or not os.path.isdir(cooked):
+        if self.efficient or not cooked or not os.path.isdir(cooked):
             return
         icons = [d.get("icon") for d in self.catalog if d.get("icon") and d.get("icon") not in self.art]
         icons = list(dict.fromkeys(icons))
+        gen = self.art_gen
 
         def work():
             for icon in icons:
+                if gen != self.art_gen:
+                    return
                 img = load_decal_art(cooked, icon)
-                self.art_queue.put((icon, img))
-            self.art_queue.put((None, None))
+                self.art_queue.put((gen, icon, img))
+            self.art_queue.put((gen, None, None))
 
         threading.Thread(target=work, daemon=True).start()
 
@@ -2061,7 +2130,9 @@ class App:
         changed = set()
         try:
             for _ in range(40):
-                icon, img = self.art_queue.get_nowait()
+                gen, icon, img = self.art_queue.get_nowait()
+                if gen != self.art_gen:
+                    continue                        # loaded before Efficient mode was switched on
                 if icon is None:
                     missing = sum(1 for d in self.catalog if not self.art.get(d.get("icon")))
                     if missing:
@@ -2362,11 +2433,8 @@ class App:
         self.root.after(700, self.poll_save)
 
     def poll_game(self):
-        def work():
-            running = game_running()
-            self.root.after(0, lambda: self._set_running(running))
-
-        threading.Thread(target=work, daemon=True).start()
+        # quick Windows call on the main thread; Tk must never be called from another thread
+        self._set_running(game_running())
         self.root.after(3000, self.poll_game)
 
     def _set_running(self, running):
