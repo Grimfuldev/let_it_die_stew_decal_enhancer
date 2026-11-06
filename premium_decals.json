@@ -1,0 +1,2494 @@
+{
+ "meta": {
+  "description": "Every LET IT DIE premium skill decal, grouped by where it comes from.",
+  "total": 256,
+  "counts": {
+   "mushroom_lady": 208,
+   "bags": 32,
+   "collab": 15,
+   "excluded": 1
+  },
+  "fields": {
+   "id": "premium decal id (master_skill.id)",
+   "icon": "art key: TX_UI_Image_<icon>_S in UI_<icon>_S_SF.upk",
+   "name": "decal name",
+   "stars": "rarity 1-5",
+   "category": "decal category",
+   "description": "what the decal does",
+   "stew_odds": "weight in the game format of master_skillgacha_odds.odds",
+   "bag_tiers": "Lost Bag tiers (bags only)"
+  },
+  "odds_rules": {
+   "lost_bag_tiers": {
+    "Rainbow": 2,
+    "Rainbow+Platinum": 4,
+    "Rainbow+Platinum+Gold": 6,
+    "Platinum+Gold": 8,
+    "Platinum+Gold+Silver": 10,
+    "Gold+Silver+Bronze": 12
+   },
+   "stars": {
+    "5": 2,
+    "4": 4,
+    "3": 40,
+    "2": 72,
+    "1": 74
+   },
+   "excluded": "LET IT DIE (SKL_ATKUP_DEFUP_P) is never put in the stew"
+  },
+  "sources": [
+   "master_skill and master_skillgacha_odds (SKLGACH_NORMAL_OFFLINE) from the game masters.db",
+   "https://oberlinx.github.io/let-it-die-model-viewer/decals.html (names, stars, categories, descriptions, icons)",
+   "https://letitdie.wiki.gg/wiki/Lost_Bags (bag tiers)"
+  ]
+ },
+ "mushroom_lady": [
+  {
+   "id": "SKL_FAN_UP_02_P",
+   "icon": "SKL_FAN_UP_02",
+   "name": "Arch Wizard",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +24% for CANDLE WOLF weapons and armor.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_CRIUP_ATKUP_01_P",
+   "icon": "SKL_CRIUP_ATKUP_01",
+   "name": "Below the Belt",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases chances of a critical hit by 20% and critical hit damage by 30%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_GUNMAN_01_P",
+   "icon": "SKL_GUNMAN_01",
+   "name": "Billy the Kid",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases Attack Power of Piercing weapons by 15% and slightly reduces reload time.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_CRIUP_DECDOWN_02_P",
+   "icon": "SKL_CRIUP_DECDOWN_02",
+   "name": "Blacksmith",
+   "stars": 5,
+   "category": "Quest Support",
+   "description": "Boosts critical hit rate by 15% and reduces weapon/armor weardown speed by 30%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_DEFUP_NODMG_RND_01_P",
+   "icon": "SKL_DEFUP_NODMG_RND_01",
+   "name": "Body Double",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases Defense by 20%, have a 20% chance of not taking any damage when hit. (Excludes fire damage, etc.)",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_ATK_CRIATK_MONEYUP_P",
+   "icon": "SKL_ATK_CRIATK_MONEYUP",
+   "name": "Dog Day Afternoon",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "ATK power and critical hit damage increase by 15%, and the amount of Kill Coins obtained from enemies and treasures increases by 30%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_ELECTROBEAST_P",
+   "icon": "SKL_ELECTROBEAST",
+   "name": "Electro Beast",
+   "stars": 5,
+   "category": "Quest Support",
+   "description": "Decreases the duration of paralysis when electrocuted. Increases the ATK of electric weapons by 30%. Increases Shock Res by 20%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_STRENGTHEN_BODY_B_P",
+   "icon": "SKL_STRENGTHEN_BODY_B",
+   "name": "Extra Joker",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Increase ATK by 15%, crit chance by 10%. Rate at which stamina decreases during Dodge, Dash and Fatigue Time decrease by 30%. 10% chance to nullify damage when attacked. (Excludes fire damage, etc.)",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_NTHEAL_ATDFUPHPMAX_P",
+   "icon": "SKL_NTHEAL_ATDFUPHPMAX",
+   "name": "Final Hero",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Heals 15 HP per second. Increases ATK and DEF by 40% when at full health.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_ST_AILMENT_DIS_01_P",
+   "icon": "SKL_ST_AILMENT_DIS_01",
+   "name": "Fingers Crossed",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Converts Poison damage to health recovery, reduces Burn and Paralysis duration, and negates Blindness caused by Frongus, Pickaxe, or Iron.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_FIREANGEL_P",
+   "icon": "SKL_FIREANGEL",
+   "name": "Fire Angel",
+   "stars": 5,
+   "category": "Quest Support",
+   "description": "Decreases the duration of continuous damage taken when on fire. Increases the ATK of fire weapons by 30%. Increases Fire Res by 20%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_ATKUP_03_P",
+   "icon": "SKL_ATKUP_03",
+   "name": "Golden Gym",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Increase ATK by 30%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_DIY_UP_02_P",
+   "icon": "SKL_DIY_UP_02",
+   "name": "Grand Master Builder",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +24% for D.O.D. ARMS weapons and armor.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_MIL_UP_02_P",
+   "icon": "SKL_MIL_UP_02",
+   "name": "Hellish Drill Sergeant",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +24% for WAR ENSEMBLE weapons and armor.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_STRENGTHEN_BODY_01_P",
+   "icon": "SKL_STRENGTHEN_BODY_01",
+   "name": "Joker",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Increases max HP by 20%, Attack Power by 15%, Defense by 15%, max stamina by 50%, and boosts Rage Gauge charging speed by 50%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_RGSPUP_RDURDOWN_01_P",
+   "icon": "SKL_RGSPUP_RDURDOWN_01",
+   "name": "King of the Wolves Ⅱ",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Increases Rage Gauge build-up by 120%, reduces durability loss rate during Rage Moves by 30%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_DODGEUP_03_P",
+   "icon": "SKL_DODGEUP_03",
+   "name": "Legendary Gymnast",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Rate at which stamina decreases during Dodge goes down by 80%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_DEATH_PROOF_03_P",
+   "icon": "SKL_DEATH_PROOF_03",
+   "name": "Living on the Edge Thrice",
+   "stars": 5,
+   "category": "Resistance",
+   "description": "You can receive fatal damage and survive on 1 HP up to three times. This limit resets when you continue or return to the Waiting Room.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_E_BURST_P",
+   "icon": "SKL_E_BURST",
+   "name": "Magic Fencer",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Slashing & Blunt Weapon Type Fire/Electric/Poison Effect ATK is increased by 50%. Increase damage dealt by critical hits by 10%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_WWEP_ATKUP_EX_01_P",
+   "icon": "SKL_WWEP_ATKUP_EX_01",
+   "name": "Niten Ichi-ryu",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases Attack Power by 30% and decreases Dodge stamina consumption by 50% when using the same one-handed weapon in both hands.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_DISALL_ATKUP_HPDWN_P",
+   "icon": "SKL_DISALL_ATKUP_HPDWN",
+   "name": "One Way Ticket",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "ATK increases by 40%, and all stats required to equip weapons and armor become 80%, but HP decreases by 30%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_TOHEAVEN_P",
+   "icon": "SKL_TOHEAVEN",
+   "name": "Path to Heaven",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increase ATK and DEF by 0.2% x current floor number.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_SPO_UP_02_P",
+   "icon": "SKL_SPO_UP_02",
+   "name": "Platinum Medalist",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +24% for M.I.L.K weapons and armor.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_POISONGENERAL_P",
+   "icon": "SKL_POISONGENERAL",
+   "name": "Poison General",
+   "stars": 5,
+   "category": "Quest Support",
+   "description": "Recover HP slowly instead of taking poison damage. Increases the ATK of poison weapons by 30%, and poison resistance increases by 20%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_ARRNG_STATUP_ALL_P",
+   "icon": "SKL_ARRNG_STATUP_ALL",
+   "name": "Professional Cosplayer",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Equip a full set of matching armor to increase Defense by 20%, Attack Power by 20%, and chances of a critical hit by 20%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_SYLVIA_NMH_02_P",
+   "icon": "SKL_SYLVIA_NMH_02",
+   "name": "Queen of Spades",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Equip a full set of matching armor for Attack Power +30%, critical hit rate +20% and 10% chance of taking 0 damage from an attack. (Excludes fire damage, etc.)",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_SAMANTHA_K7_02_P",
+   "icon": "SKL_SAMANTHA_K7_02",
+   "name": "Queen of the Wolves",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Rage Gauge will now fill 70% faster. Attack Power +30%. for Rage Moves.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_DEFUP_03_P",
+   "icon": "SKL_DEFUP_03",
+   "name": "Red Diamond",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Increase DEF by 40%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_QOH_P",
+   "icon": "SKL_QOH",
+   "name": "Red Queen",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Equip a full set of matching armor for Attack Power +20%, increase max stamina by +80% and 20% chance of taking 0 damage from an attack. (Excludes fire damage, etc.)",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_FEMALE_GUNMAN_P",
+   "icon": "SKL_FEMALE_GUNMAN",
+   "name": "Rio Bravo",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases Attack Power of Piercing weapons by 15% and you can reload War Ensemble ranged weapon every 5 seconds with special explosive rounds, dealing 100% more damage.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_SEASONING_M_P",
+   "icon": "SKL_SEASONING_M",
+   "name": "Sci. Seasoning M",
+   "stars": 5,
+   "category": "Quest Support",
+   "description": "Effects of Crushroom and Toughshroom added, when using Barbmeat Full or Half Portion. Also, 55% chance the used Barbmeat isn't consumed.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_CRIUP_03_P",
+   "icon": "SKL_CRIUP_03",
+   "name": "Six-leaf Clover",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Increase crit chance by 30%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_ATKUP_CRIUP_DEFDWN_P",
+   "icon": "SKL_ATKUP_CRIUP_DEFDWN",
+   "name": "Special Unit Captain",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Increase ATK by 40%. Increase crit chance by 10%, but reduce DEF by 30%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_ADVENTURE_01_P",
+   "icon": "SKL_ADVENTURE_01",
+   "name": "Spy",
+   "stars": 5,
+   "category": "Quest Support",
+   "description": "Always shows hidden items etc. on the map. Decreases Dash stamina consumption and fatigue time by 40%. Rate at which stamina decreases during Dodge goes down by 40%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_HPUP_03_P",
+   "icon": "SKL_HPUP_03",
+   "name": "Super Heavy Tank",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Increase max HP by 60%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_STUP_FEAT_HPCUREUP_P",
+   "icon": "SKL_STUP_FEAT_HPCUREUP",
+   "name": "Ultimate Food Fighter",
+   "stars": 5,
+   "category": "Quest Support",
+   "description": "Eat faster. Increases HP recovery by 55%. Receive the effects of cooked food when using uncooked Mushrooms and Beasts. Increases fighters all basic parameters by 5%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_SPDUP_03_P",
+   "icon": "SKL_SPDUP_03",
+   "name": "Ultra-Marathon Man",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Rate at which stamina decreases during Dash and Fatigue Time decrease by 80%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_EXPLODE_DRAIN_P",
+   "icon": "SKL_EXPLODE_DRAIN",
+   "name": "Vampire Queen",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Defeated enemies blow up, causing damage all around. Recover 10% of damage dealt as HP. The maximum recovery per hit is 7% of your max health.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_ATKUP_SANDS_P",
+   "icon": "SKL_ATKUP_SANDS",
+   "name": "Violence Class",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Boosts ATK of blunt weapons and slashing weapons by 40%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_WARRIORS_01_P",
+   "icon": "SKL_WARRIORS_01",
+   "name": "Warrior Monk",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases Attack Power of Slash and Blunt weapons by 30%, and Piercing Res by 20%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_WHITEFEATHER_P",
+   "icon": "SKL_WHITEFEATHER",
+   "name": "White Feather",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increase weapon's Piercing Effect ATK by 15% attack power during Headshot by 70％. Bullet spray and recoil reduced when using a War Ensemble ranged weapon.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_IRON_ABILITY_UP_P",
+   "icon": "SKL_IRON_ABILITY_UP",
+   "name": "ANGRY MAMA",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Iron + Trucker armor bonus. Equip 1 piece: Iron Attack Power +20%. Equip 2: +40%. Equip 3: +60%. Full set: Rage Gauge fills +100% faster.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ARCHERY_ATKUP_01_P",
+   "icon": "SKL_ARCHERY_ATKUP_01",
+   "name": "Archery Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Archer's Bows.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_RIFLE_ATK_UP_01_P",
+   "icon": "SKL_RIFLE_ATK_UP_01",
+   "name": "Assault Rifle Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increases Assault Rifle ATK by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BATTLEAXE_ATKUP_01_P",
+   "icon": "SKL_BATTLEAXE_ATKUP_01",
+   "name": "Axe Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Axes.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CRSBOW_ABILITY_UP_P",
+   "icon": "SKL_CRSBOW_ABILITY_UP",
+   "name": "Bandit",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Crossbow + Rogue armor bonus. Equip 1 piece: Crossbow critical hit rate +10%. Equip 2: +20%. Equip 3: +30%. Full set: Slightly decreases reload time.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ATKUP_02_P",
+   "icon": "SKL_ATKUP_02",
+   "name": "Barbell",
+   "stars": 4,
+   "category": "Athleticism-related",
+   "description": "Increase ATK by 15%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BAT_ATKUP_01_P",
+   "icon": "SKL_BAT_ATKUP_01",
+   "name": "Bat Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Bats.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ROCKET_ABILITY_UP_P",
+   "icon": "SKL_ROCKET_ABILITY_UP",
+   "name": "Bazooka Wake-Up",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Rocket Launcher + Guerrilla Blaster armor bonus. Equip 1 piece: max of +20% damage the closer you attack. Equip 2: 40%. Equip 3: 80%. Full set: +100% Attack Power for final rocket.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CLAW_ABILITY_UP_P",
+   "icon": "SKL_CLAW_ABILITY_UP",
+   "name": "Bear Claw",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Claw + Agamemnon armor bonus. Equip 1 piece: reduces armor durability loss rate for Claw + Agamemnon by 60%. Equip 2: 50%. Equip 3: 40%. Full set: Recover HP equal to 20% damage dealt with Claws (up to 7% of maximum HP).",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BTLAXE_ABILITY_UP_P",
+   "icon": "SKL_BTLAXE_ABILITY_UP",
+   "name": "BERSERKER",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Axe + Warrior armor bonus. Equip 1 piece: Absorbs +5% of damage received and adds it to your attacks. Equip 2: +10%. Equip 3: +20%. (Resets after attacking). Full set: recover HP equal to 20% damage dealt (up to 7% of maximum HP).",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_RESISTUP_SLASH_01_P",
+   "icon": "SKL_RESISTUP_SLASH_01",
+   "name": "Big Bro's Pocket",
+   "stars": 4,
+   "category": "Resistance",
+   "description": "Increases Slash Res by 20%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BOWLING_ATKUP_01_P",
+   "icon": "SKL_BOWLING_ATKUP_01",
+   "name": "Bowling Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Bowling Balls.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BOXGLOVE_ATKUP_01_P",
+   "icon": "SKL_BOXGLOVE_ATKUP_01",
+   "name": "Boxing Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Boxing Gloves.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CIRCLESAW_ATKUP_01_P",
+   "icon": "SKL_CIRCLESAW_ATKUP_01",
+   "name": "Buzzsaw Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Buzzsaws.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_IHOCKEY_ABILITY_UP_P",
+   "icon": "SKL_IHOCKEY_ABILITY_UP",
+   "name": "CENTER FORWARD",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Hockey Stick + Apocalyptic Hockey armor bonus. Equip 1 piece: Sonic Puck Rage Move Attack Power +30%. Equip 2: +60%. Equip 3: +100%. Full set: your pucks won't hit your Fighter.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ATKUP_FORTGUARD_P",
+   "icon": "SKL_ATKUP_FORTGUARD",
+   "name": "Cerberus",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increases ATK of the Defender it's equipped to by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CHAINSAW_ATKUP_01_P",
+   "icon": "SKL_CHAINSAW_ATKUP_01",
+   "name": "Chainsaw Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Chainsaws.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CLEAVER_ATKUP_01_P",
+   "icon": "SKL_CLEAVER_ATKUP_01",
+   "name": "Chopper Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Choppers.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CLAW_ATKUP_01_P",
+   "icon": "SKL_CLAW_ATKUP_01",
+   "name": "Claw Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Claws.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BOXING_ABILITY_UP_P",
+   "icon": "SKL_BOXING_ABILITY_UP",
+   "name": "Corkscrew Punch",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Boxing Gloves + Hard Puncher armor bonus. Equip 1 piece: Attack Power +5%. Equip 2: +10%. Equip 3: +15%. Full set: 30% chance of no durability loss when performing Normal Attacks with Boxing Gloves.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CRI_ATKUP_P",
+   "icon": "SKL_CRI_ATKUP",
+   "name": "Critical Attack",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increases Critical Hit damage by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CROSSBOW_ATK_UP_01_P",
+   "icon": "SKL_CROSSBOW_ATK_UP_01",
+   "name": "Crossbow Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Crossbow Attack Power increases by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SHOTGUN_ABILITY_UP_P",
+   "icon": "SKL_SHOTGUN_ABILITY_UP",
+   "name": "Death Hunt",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Shotgun + Barrett Punisher armor bonus. Equip 1 piece: Attack Power +10%. Equip 2: +20%. Equip 3: +30%. Full set: Attack Power +80% for Shotgun Rage Moves and reduces durability loss rate during Rage Moves by 50%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_DEFUP_02_P",
+   "icon": "SKL_DEFUP_02",
+   "name": "Diamond",
+   "stars": 4,
+   "category": "Athleticism-related",
+   "description": "Increase DEF by 20%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SPEAR_ABILITY_UP_P",
+   "icon": "SKL_SPEAR_ABILITY_UP",
+   "name": "Don Quixote",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Spear + Knight armor bonus. Equip 1 piece: +10% Defense. Equip 2: +20%. Equip 3: +30%. Full set: Attack Power +50% when attacking after a Perfect Guard. (Resets after attacking).",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FLAMERD_ABILITY_UP_P",
+   "icon": "SKL_FLAMERD_ABILITY_UP",
+   "name": "Dragonfire",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Flamethrower + Phantom Soldier armor bonus. Equip 1 piece: Defense +10%. Equip 2: +25%. Equip 3: +50%. Full set: Fire damage dealt by Flamethrower +100%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_DRILL_ATKUP_01_P",
+   "icon": "SKL_DRILL_ATKUP_01",
+   "name": "Drill Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Drills.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_DRILL_ABILITY_UP_P",
+   "icon": "SKL_DRILL_ABILITY_UP",
+   "name": "Drill Mole",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Drill + Doctor Drill armor bonus. Equip 1 piece: Attack Power +20%. Equip 2: +30%. Equip 3: +40%. Full set: Recover HP equal to 15% damage dealt with Drills (up to 7% of maximum HP).",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_TSRGUN_ABILITY_UP_P",
+   "icon": "SKL_TSRGUN_ABILITY_UP",
+   "name": "Electric Bop",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Stun Gun + Exo-armor armor bonus. Equip 1 piece: Stun Gun Attack Power +10% Equip 2: +20%. Equip 3: +30%. Full set: 20% chance of no durability or ammo loss with Stun Gun Normal Attacks.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FIREBATON_ATKUP_01_P",
+   "icon": "SKL_FIREBATON_ATKUP_01",
+   "name": "Fire Baton Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Fire Batons.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FIREROD_ATKUP_01_P",
+   "icon": "SKL_FIREROD_ATKUP_01",
+   "name": "Fire Rod Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Fire Rods.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FBATON_ABILITY_UP_P",
+   "icon": "SKL_FBATON_ABILITY_UP",
+   "name": "Firewheel",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Fire Baton + Splatter 13 armor bonus. Equip 1 piece: Fire Baton Attack Power +20%. Equip 2: +30%. Equip 3: +40%. Full set: Fire damage dealt by Fire Baton +80%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FIREWKS_ATK_UP_01_P",
+   "icon": "SKL_FIREWKS_ATK_UP_01",
+   "name": "Fireworks Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increases Firework ATK by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_MORNSTAR_ATKUP_01_P",
+   "icon": "SKL_MORNSTAR_ATKUP_01",
+   "name": "Flail Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Flails.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FLAMERAD_ATKUP_01_P",
+   "icon": "SKL_FLAMERAD_ATKUP_01",
+   "name": "Flamethrower Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Flamethrowers.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_RAGE_GAUGE_01_P",
+   "icon": "SKL_RAGE_GAUGE_01",
+   "name": "Flash Boiler",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Rage Gauge increase by +2 once at the start of a Raid, or when using an elevator or escalator.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ARCWELD_ABILITY_UP_P",
+   "icon": "SKL_ARCWELD_ABILITY_UP",
+   "name": "Flashdance",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Welding Gun + Steel Soldier armor bonus. Equip 1 piece: Welding Gun Attack Power +20% Equip 2: +30%. Equip 3: +40%. Full set: 25% chance of taking 0 damage from an attack. (Excludes fire damage, etc.)",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FASTEAT_P",
+   "icon": "SKL_FASTEAT",
+   "name": "Food Fighter",
+   "stars": 4,
+   "category": "Quest Support",
+   "description": "Eat faster.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SNPRRFL_ABILITY_UP_P",
+   "icon": "SKL_SNPRRFL_ABILITY_UP",
+   "name": "Full Metal Jacket",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Sniper rifle + Silent Sniper armor bonus. 1 piece of armor: Sniper rifle headshot Attack Power +30%. 2 pieces: +50%. 3 pieces: +70%. Full set: last bullet +50% Attack Power.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_STMNUP_02_P",
+   "icon": "SKL_STMNUP_02",
+   "name": "Gold Heart",
+   "stars": 4,
+   "category": "Athleticism-related",
+   "description": "Increase max stamina by 80%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SHOVEL_ABILITY_UP_P",
+   "icon": "SKL_SHOVEL_ABILITY_UP",
+   "name": "Gravedigger",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Shovel + Dark Ryback armor bonus. Equip 1 piece: Shovel Attack Power +10%. Equip 2: +20%. Equip 3: +30%. Full set: 20% chance of taking 0 damage from an attack.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SWORD_ABILITY_UP_P",
+   "icon": "SKL_SWORD_ABILITY_UP",
+   "name": "Great Hero",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Sword + Fencing armor bonus. Equip 1 piece: Rage Gauge fills +20% faster. Equip 2: +40%. Equip 3: +60%. Full set: Attack Power for Sword Rage Moves +100%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_KATANA_ABILITY_UP_P",
+   "icon": "SKL_KATANA_ABILITY_UP",
+   "name": "Hagakure",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Katana + Sengoku armor bonus. 1 piece of armor: Katana critical hit rate +20%. 2 pieces: +40%. 3 pieces: +60%. Full set: +30% damage for critical attacks.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_HAMMER_ATK_UP_01_P",
+   "icon": "SKL_HAMMER_ATK_UP_01",
+   "name": "Hammer Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increases Hammer ATK by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_HAMMER_ABILITY_UP_P",
+   "icon": "SKL_HAMMER_ABILITY_UP",
+   "name": "Hammerhead",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Hammer + Chemical Agent armor bonus. Equip 1 piece: Hammer Attack Power +20%. Equip 2: +40%. Equip 3: +70%. Full set: Defense +30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_HPUP_02_P",
+   "icon": "SKL_HPUP_02",
+   "name": "Heavy Tank",
+   "stars": 4,
+   "category": "Athleticism-related",
+   "description": "Increase max HP by 40%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ICEHOCKEY_ATK_UP_P",
+   "icon": "SKL_ICEHOCKEY_ATK_UP",
+   "name": "Hockey Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increase Hockey Stick ATK by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_STUNROD_ABILITY_UP_P",
+   "icon": "SKL_STUNROD_ABILITY_UP",
+   "name": "Human Power Plant",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Stun Rod + Combat Diver Armor bonus. Equip 1 piece: Rage Gauge fills +40% faster. Equip 2: +70%. Equip 3: +100%. Full set: Reduces Stun Rod Rage Move cost by 1.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_THDRROD_ABILITY_UP_P",
+   "icon": "SKL_THDRROD_ABILITY_UP",
+   "name": "Hyper Zeus",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Thunder Rod + Evil Wizard armor bonus. Equip 1 piece: Defense +5%. Equip 2: +10%. Equip 3: +20%. Full set: speed of stamina consumption during Dash, and stamina consumption for Dodge -50%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_IRON_ATK_UP_01_P",
+   "icon": "SKL_IRON_ATK_UP_01",
+   "name": "Iron Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Iron Attack Power increases by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_TWKNIFE_ABILITY_UP_P",
+   "icon": "SKL_TWKNIFE_ABILITY_UP",
+   "name": "Jiraiya",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Shuriken + Clay Figurine armor bonus. Equip 1 piece: reduces armor durability loss rate for Shuriken + Clay Figurine by 60%. Equip 2: 50%. Equip 3: 40%. Full set: Rage Gauge fills +60% faster.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_WDMG_DOWN_P",
+   "icon": "SKL_WDMG_DOWN",
+   "name": "Judge's Gavel",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increase attack power during Down Attack by 100%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FAST_RELOAD_01_P",
+   "icon": "SKL_FAST_RELOAD_01",
+   "name": "Juggler",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Reduces reload time.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_MACHETE_ABILITY_UP_P",
+   "icon": "SKL_MACHETE_ABILITY_UP",
+   "name": "Jungle Tiger",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Machete + Special Forces armor bonus. Equip 1 piece: Rage Gauge fills +30% faster. Equip 2: +50%. Equip 3: +80%. Full set: Attack Power for Machete Rage Moves +30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_KATANA_ATK_UP_P",
+   "icon": "SKL_KATANA_ATK_UP",
+   "name": "Katana Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increase Katana ATK by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_PECKER_ABILITY_UP_P",
+   "icon": "SKL_PECKER_ABILITY_UP",
+   "name": "King of Coal",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Pickaxe + Road Shocker armor bonus. Equip 1 piece: Attack Power and Defense +10%. Equip 2: +20%. Equip 3: +30%. Full set: negates Blindness effect caused by Frongus, Pickaxe, or Iron.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_RGSPDUP_02_P",
+   "icon": "SKL_RGSPDUP_02",
+   "name": "King of the Wolves",
+   "stars": 4,
+   "category": "Athleticism-related",
+   "description": "Increase rage gauge build-up by 80%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_KNIFE_ATKUP_01_P",
+   "icon": "SKL_KNIFE_ATKUP_01",
+   "name": "Knife Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Knives.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_RESISTUP_SHOOT_01_P",
+   "icon": "SKL_RESISTUP_SHOOT_01",
+   "name": "Leader's Wheels",
+   "stars": 4,
+   "category": "Resistance",
+   "description": "Increases Piercing Res by 20%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ATKDEFUP_HPMAX_02_P",
+   "icon": "SKL_ATKDEFUP_HPMAX_02",
+   "name": "Legendary Hero",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increase ATK and DEF by 30% when at full health.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_RESISTUP_STRIKE_01_P",
+   "icon": "SKL_RESISTUP_STRIKE_01",
+   "name": "Lil Bro's Basket",
+   "stars": 4,
+   "category": "Resistance",
+   "description": "Increases Blunt Res by 20%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SHISHIMAI_ATKUP_01_P",
+   "icon": "SKL_SHISHIMAI_ATKUP_01",
+   "name": "Lion Dance Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Lion Dance Knuckle weapons.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SISIMAI_ABILITY_UP_P",
+   "icon": "SKL_SISIMAI_ABILITY_UP",
+   "name": "Lion Man",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Lion Dance Knuckle + Sword Dancer armor bonus. Equip 1 piece: Lion Dance Knuckle Attack Power +10%. Equip 2: +20%. Equip 3: +30%. Full set: critical hit damage +30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CLEAVER_ABILITY_UP_P",
+   "icon": "SKL_CLEAVER_ABILITY_UP",
+   "name": "Local Butcher",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Chopper + Happy Wheeler armor bonus. Equip 1 piece: Attack Power +10%. Equip 2: +20%. Equip 3: +40%. Full set: Screamers, Haters, and Hunters may drop Barbmeat Half Portion when defeated.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CHNSAW_ABILITY_UP_P",
+   "icon": "SKL_CHNSAW_ABILITY_UP",
+   "name": "Lumberjack",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Chainsaw + Steel Tribe armor bonus. Equip 1 piece: Chainsaw Attack Power +20%. Equip 2: +30%. Equip 3: +40%. Full set: speed of stamina consumption for Dash, and stamina consumption for Dodge -60%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_MACHETE_ATK_UP_01_P",
+   "icon": "SKL_MACHETE_ATK_UP_01",
+   "name": "Machete Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increases Machete ATK by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_EXPLODE_ENEMYKILL_P",
+   "icon": "SKL_EXPLODE_ENEMYKILL",
+   "name": "Mad Bomber",
+   "stars": 4,
+   "category": "Quest Support",
+   "description": "Defeated enemies blow up, causing damage all around.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_REVOLVER_ATKUP_01_P",
+   "icon": "SKL_REVOLVER_ATKUP_01",
+   "name": "Magnum Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Magnums.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_EV_DISCOUNT_P",
+   "icon": "SKL_EV_DISCOUNT",
+   "name": "Maintenance Staff",
+   "stars": 4,
+   "category": "Quest Support",
+   "description": "Use the elevator for a cheaper price.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BIKE_ATKUP_01_P",
+   "icon": "SKL_BIKE_ATKUP_01",
+   "name": "Motorcycle Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Motorcycles.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SABRE_ABILITY_UP_P",
+   "icon": "SKL_SABRE_ABILITY_UP",
+   "name": "Musketeer",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Saber + Paladin armor bonus. Equip 1 piece: reduces armor durability loss rate for Saber + Paladin by 80%. Equip 2: 60%. Equip 3: 40%. Full set: Critical hit rate +30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_NAILGUN_ATKUP_01_P",
+   "icon": "SKL_NAILGUN_ATKUP_01",
+   "name": "Nail Gun Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Nail Guns.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_KNIFE_ABILITY_UP_P",
+   "icon": "SKL_KNIFE_ABILITY_UP",
+   "name": "Night Assassin",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Knife + Night Scout armor bonus. 1 piece of armor: 10% less stamina consumed when Dodging. 2 pieces: 30%, 3 pieces: 50%. Full set: Knife Attack Power +100% after Dodging. Returns to normal after attacking once. Effect does not stack.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_STIMBER_ABILITY_UP_P",
+   "icon": "SKL_STIMBER_ABILITY_UP",
+   "name": "On-Site Supervision",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Timber + Violent Grinder armor bonus. Equip 1 piece: Defense +10%. Equip 2: +20%. Equip 3: +30%. Full set: no fuel loss for Timber.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ATK_CHARGED_P",
+   "icon": "SKL_ATK_CHARGED",
+   "name": "Payback",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Store up to 20% of damage taken and add that amount to your next attack. The stored damage is reset after attacking.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_PITCH_M_ABILITY_UP_P",
+   "icon": "SKL_PITCH_M_ABILITY_UP",
+   "name": "Perfect Closer",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Pitching Machine + Kendo armor bonus. Equip 1 piece: Pitching Machine 10% chance of no durability or ammo loss. Equip 2: 20%. Equip 3: 30%. Full set: fired pitching balls randomly become a +200% damage STRIKE attack.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_PECKER_ATKUP_01_P",
+   "icon": "SKL_PECKER_ATKUP_01",
+   "name": "Pickaxe Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Pickaxes.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_NAILGUN_ABILITY_UP_P",
+   "icon": "SKL_NAILGUN_ABILITY_UP",
+   "name": "Pile Bunker",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Nail Gun + Power Stomper armor bonus. Equip 1 piece: Recover HP equal to 3% of damage dealt with a Nail Gun. Equip 2: 6%. Equip 3: 12%. (Up to 7% of maximum HP). Full set: Defense +20%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BAT_ABILITY_UP_P",
+   "icon": "SKL_BAT_ABILITY_UP",
+   "name": "Pinch Hitter",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Bat + Heavy Hitter armor bonus. 1 piece of armor: Bat Attack Power +20%. 2 pieces: +30%. 3 pieces: +44%. Full set: Full Swing's damage may be doubled at random!",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_PITCHING_ATKUP_01_P",
+   "icon": "SKL_PITCHING_ATKUP_01",
+   "name": "Pitching Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Pitching Machines.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BOWLING_ABILITY_UP_P",
+   "icon": "SKL_BOWLING_ABILITY_UP",
+   "name": "Pro Bowler",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Bowling Ball + Blitz Bowler armor bonus. Equip 1 piece: stamina consumption for Dodges -50%. Equip 2: -60%. Equip 3: -70%. Full set: sometimes doubles damage dealt by Triple Strike.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_MSTAR_ABILITY_UP_P",
+   "icon": "SKL_MSTAR_ABILITY_UP",
+   "name": "Propeller Man",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Flail + Cycle Madness armor bonus. Equip 1 piece: Defense +5%. Equip 2: +10%. Equip 3: +20%. Full set: 20% chance of taking 0 damage from attacks. (Excluding Fire damage etc.)",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FIREWRK_ABILITY_UP_P",
+   "icon": "SKL_FIREWRK_ABILITY_UP",
+   "name": "Pyrotechnician",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Fireworks + Texas Farmer armor bonus. Equip 1 piece: Defense +10%. Equip 2: +20%. Equip 3: +30%. Full set: 50% chance Fireworks Ammo and Durability won't decrease from regular attacks.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FIRE_DISCOVERY_P",
+   "icon": "SKL_FIRE_DISCOVERY",
+   "name": "Resourceful",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Receive the effects of cooked food when using uncooked Mushrooms and Beasts.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ARCHERY_ABILITY_UP_P",
+   "icon": "SKL_ARCHERY_ABILITY_UP",
+   "name": "Robin Hood",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Archer's Bow + Swimming Master armor bonus. Equip 1 piece: 10% chance of no durability or ammo loss with Normal Attacks. Equip 2: 30%. Equip 3: 50%. Full set: recover 20 HP per second.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ROCKET_ATKUP_01_P",
+   "icon": "SKL_ROCKET_ATKUP_01",
+   "name": "Rocket Launcher Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Rocket Launchers.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SABER_ATK_UP_01_P",
+   "icon": "SKL_SABER_ATK_UP_01",
+   "name": "Saber Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increases Saber ATK by 30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FIREROD_ABILITY_UP_P",
+   "icon": "SKL_FIREROD_ABILITY_UP",
+   "name": "Salamander",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Fire Rod + Priest armor bonus. Equip 1 piece: Recover 10 HP per second. Equip 2: 15. Equip 3: 20. Full set: Swap to or attack with Fire Rod to reload with explosive rounds 12 seconds after, dealing +30% more damage than normal.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_CIRCLE_SAW_DISMANT_P",
+   "icon": "SKL_CIRCLE_SAW_DISMANT",
+   "name": "Scrap Yard",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Buzzsaw + DIY Attack armor bonus. 1 piece of armor: Buzzsaw weapon & DIY Attack armor durability loss reduced to 70%. 2 pieces: 50%. 3 pieces: 30%. Full set: Screamers, Haters and Hunters drop Barbmeat Half Portions on kill.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_JUST_GUARD_01_P",
+   "icon": "SKL_JUST_GUARD_01",
+   "name": "Self-Defense",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "50% ATK increase after Perfect Guard. Only affects your next attack.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ATKUP_NODMG_P",
+   "icon": "SKL_ATKUP_NODMG",
+   "name": "Serial Killer",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increase ATK by 10% after killing an enemy without taking damage, up to 100% increased damage. Taking damage resets this bonus.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SHOTGUN_ATKUP_01_P",
+   "icon": "SKL_SHOTGUN_ATKUP_01",
+   "name": "Shotgun Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Shotguns.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SHOVEL_ATKUP_01_P",
+   "icon": "SKL_SHOVEL_ATKUP_01",
+   "name": "Shovel Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Shovels.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_THRWKNIFE_ATKUP_01_P",
+   "icon": "SKL_THRWKNIFE_ATKUP_01",
+   "name": "Shuriken Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Shurikens.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SNPRRFL_ATKUP_01_P",
+   "icon": "SKL_SNPRRFL_ATKUP_01",
+   "name": "Sniper Rifle Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Sniper Rifles.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SPEAR_ATKUP_01_P",
+   "icon": "SKL_SPEAR_ATKUP_01",
+   "name": "Spear Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Spears.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_YOYO_ABILITY_UP_P",
+   "icon": "SKL_YOYO_ABILITY_UP",
+   "name": "SPIN MASTER",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Yo-Yo + Hard Target armor bonus. Equip 1 piece: Yo-Yo critical hit rate +10%. Equip 2: +20%. Equip 3: +30%. Full set: critical hit damage +30%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_TASERGUN_ATKUP_01_P",
+   "icon": "SKL_TASERGUN_ATKUP_01",
+   "name": "Stun Gun Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Stun Guns.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_STUNROD_ATKUP_01_P",
+   "icon": "SKL_STUNROD_ATKUP_01",
+   "name": "Stun Rod Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Stun Rods.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SWORD_ATKUP_01_P",
+   "icon": "SKL_SWORD_ATKUP_01",
+   "name": "Sword Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Swords.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BIKE_ABILITY_UP_P",
+   "icon": "SKL_BIKE_ABILITY_UP",
+   "name": "Thunder Road",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Motorcycle + Motocross armor bonus. Equip 1 piece: Motorcycle Attack Power +10%. Equip 2: +20%. Equip 3: +30%. Full set: Attack Power for Motorcycle Rage Moves +20%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_THUNDERRD_ATKUP_01_P",
+   "icon": "SKL_THUNDERRD_ATKUP_01",
+   "name": "Thunder Rod Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Thunder Rods.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SQRTIMBER_ATKUP_01_P",
+   "icon": "SKL_SQRTIMBER_ATKUP_01",
+   "name": "Timber Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Timber weapons.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SEARCHUP_ITEM_P",
+   "icon": "SKL_SEARCHUP_ITEM",
+   "name": "Treasure Hunter",
+   "stars": 4,
+   "category": "Quest Support",
+   "description": "Permanently display hidden items in their initial state on the map.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ASLTRFL_BULLET_UP_P",
+   "icon": "SKL_ASLTRFL_BULLET_UP",
+   "name": "Trigger Happy",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Assault Rifle + Assaultforce armor bonus. When using Normal Attacks, 1 piece of armor: 20% chance of no durability or ammo loss. 2 pieces: 40%, and 3 pieces: 60%. Full set: +15% Assault Rifle Attack Power when HP is full.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FINAL_BLOW_01_P",
+   "icon": "SKL_FINAL_BLOW_01",
+   "name": "Trump Card",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Taunting increases Attack by 20%. Returns to normal after attacking. Effect does not stack.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_REVOLVR_ABILITY_UP_P",
+   "icon": "SKL_REVOLVR_ABILITY_UP",
+   "name": "Vigilante",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Magnum + Iron Eagle armor bonus. Equip 1 piece: max of +10% damage the closer you attack. Equip 2: 20%. Equip 3: 30%. Full set: +100% Magnum Attack Power after dodging. Resets after each attack. Doesn't stack.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_ARCWELD_ATKUP_01_P",
+   "icon": "SKL_ARCWELD_ATKUP_01",
+   "name": "Welding Gun Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Welding Guns.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_EMPHAND_ABILITY_UP_P",
+   "icon": "SKL_EMPHAND_ABILITY_UP",
+   "name": "Wrestlemaniac",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Fists + Killer Wrestler armor bonus. Equip 1 piece: speed of stamina consumption during Dash and stamina consumption for Dodge -30%. Equip 2: -40%. Equip 3: -50%. Full set: adds knockback and AoE effect to dropkicks.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_YOYO_ATKUP_01_P",
+   "icon": "SKL_YOYO_ATKUP_01",
+   "name": "Yo-Yo Addict",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +30% for Yo-Yos.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SHORT_DROPKICK_P",
+   "icon": "SKL_SHORT_DROPKICK",
+   "name": "Angel Kicker",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Reduces dash time required before a Dropkick.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_WEP_SPDUP_P",
+   "icon": "SKL_WEP_SPDUP",
+   "name": "Barbarian",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Increase attack power of double- handed weapons by 20%.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_WWEP_ATKUP_01_P",
+   "icon": "SKL_WWEP_ATKUP_01",
+   "name": "Dual Wielding Master",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Increase ATK by 10% when using the same one-handed weapon in both hands.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_CRIUP_02_P",
+   "icon": "SKL_CRIUP_02",
+   "name": "Five-leaf Clover",
+   "stars": 3,
+   "category": "Athleticism-related",
+   "description": "Increase crit chance by 20%.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_ATKUP_ANTI_HIGHLV_P",
+   "icon": "SKL_ATKUP_ANTI_HIGHLV",
+   "name": "Giant Killer",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Increase Attack Power by 30% against enemies 5 levels or higher than you.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_STEALTHUP_P",
+   "icon": "SKL_STEALTHUP",
+   "name": "Hide and Seek",
+   "stars": 3,
+   "category": "Quest Support",
+   "description": "You are harder for enemies to detect while crouching.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_HARD_STAN_P",
+   "icon": "SKL_HARD_STAN",
+   "name": "Indomitable Spirit",
+   "stars": 3,
+   "category": "Resistance",
+   "description": "Makes it harder to become Groggy.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_ANTI_MSR_B_P",
+   "icon": "SKL_ANTI_MSR_B",
+   "name": "Loxorin",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "When attached to Hunters, Haters, or defending Fighters, cancels thrown Brainshrooms and Fishy Fungus Groggy/Confusion effects.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_SPDUP_02_P",
+   "icon": "SKL_SPDUP_02",
+   "name": "Marathon Runner",
+   "stars": 3,
+   "category": "Athleticism-related",
+   "description": "Rate at which stamina decreases during Dash and Fatigue Time decrease by 50%.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_LESDMG_STEALTH_02_P",
+   "icon": "SKL_LESDMG_STEALTH_02",
+   "name": "Master Ninja",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Increases damage of suplexes while stealthed by 100%.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_ANTI_MSR_A_P",
+   "icon": "SKL_ANTI_MSR_A",
+   "name": "Naspirin",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Cancels out enemy's Guardshroom Invincibility effect and Transparungus Cloak effect.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_HEADSHOTUP_P",
+   "icon": "SKL_HEADSHOTUP",
+   "name": "One Shot One Kill",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Increase attack power during Headshot by 70%.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_POISONMASTER_P",
+   "icon": "SKL_POISONMASTER",
+   "name": "Poison Master",
+   "stars": 3,
+   "category": "Quest Support",
+   "description": "Recover HP slowly instead of taking poison damage. Increases the ATK of poison weapons by 10%.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_ANTI_MSR_C_P",
+   "icon": "SKL_ANTI_MSR_C",
+   "name": "Poltarin",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Nullifies Stingshroom attack boost effects; Slowmungus effect cancelled after taking damage. (For Defender, Hunter, or Hater)",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_SANDBAG_01_P",
+   "icon": "SKL_SANDBAG_01",
+   "name": "Punching Bag",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Reduces damage when Guarding.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_LESDMG_FALLING_02_P",
+   "icon": "SKL_LESDMG_FALLING_02",
+   "name": "Super Shock Absorber",
+   "stars": 3,
+   "category": "Resistance",
+   "description": "Ignore all falling damage.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_DRAIN_01_P",
+   "icon": "SKL_DRAIN_01",
+   "name": "Vampire",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Recover 7% of damage dealt as HP. The maximum recovery per hit is 7% of your max health.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_R_GAUGE_FORT_UP_01_P",
+   "icon": "SKL_R_GAUGE_FORT_UP_01",
+   "name": "Volcano",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "While defending, increases Rage Gauge by 1 when attached to a Defense Fighter.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_MIL_UP_01_P",
+   "icon": "SKL_MIL_UP_01",
+   "name": "Drill Sergeant",
+   "stars": 2,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +7% for WAR ENSEMBLE weapons and armor.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_DECELEC_01_P",
+   "icon": "SKL_DECELEC_01",
+   "name": "Electro Sheep",
+   "stars": 2,
+   "category": "Resistance",
+   "description": "Decreases the duration of paralysis when electrocuted.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_DECFIRE_01_P",
+   "icon": "SKL_DECFIRE_01",
+   "name": "Firefighter",
+   "stars": 2,
+   "category": "Resistance",
+   "description": "Decreases the duration of continuous damage taken when on fire.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_DEATH_PROOF_P",
+   "icon": "SKL_DEATH_PROOF",
+   "name": "Living on the Edge",
+   "stars": 2,
+   "category": "Resistance",
+   "description": "Hold out with 1 HP just once when taking fatal damage on a raid. This limit resets when you continue or return to the Waiting Room.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_DIY_UP_01_P",
+   "icon": "SKL_DIY_UP_01",
+   "name": "Master Builder",
+   "stars": 2,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +7% for D.O.D. ARMS weapons and armor.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_SPO_UP_01_P",
+   "icon": "SKL_SPO_UP_01",
+   "name": "Medalist",
+   "stars": 2,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +7% for M.I.L.K weapons and armor.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_SNOWWHITE_P",
+   "icon": "SKL_SNOWWHITE",
+   "name": "Poison Eater",
+   "stars": 2,
+   "category": "Quest Support",
+   "description": "Recover HP slowly instead of poison damage.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_DODGEUP_02_P",
+   "icon": "SKL_DODGEUP_02",
+   "name": "Professional Gymnast",
+   "stars": 2,
+   "category": "Athleticism-related",
+   "description": "Rate at which stamina decreases during Dodge goes down by 50%.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_ATKDEFUP_HPLOW_02_P",
+   "icon": "SKL_ATKDEFUP_HPLOW_02",
+   "name": "Raging Bull",
+   "stars": 2,
+   "category": "Special Strengthening",
+   "description": "Increase ATK and DEF by 60% when your HP is at 15% or below.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_SPDUP_01_P",
+   "icon": "SKL_SPDUP_01",
+   "name": "Sprinter",
+   "stars": 2,
+   "category": "Athleticism-related",
+   "description": "Rate at which stamina decreases during Dash and Fatigue Time decrease by 30%.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_SUPER_ALLOY_P",
+   "icon": "SKL_SUPER_ALLOY",
+   "name": "Superalloy",
+   "stars": 2,
+   "category": "Special Strengthening",
+   "description": "Deal 20% more damage to enemies when their HP is 70% or more.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_FAN_UP_01_P",
+   "icon": "SKL_FAN_UP_01",
+   "name": "Wizard",
+   "stars": 2,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +7% for CANDLE WOLF weapons and armor.",
+   "stew_odds": 72
+  },
+  {
+   "id": "SKL_ATKDEFUP_HPLOW_01_P",
+   "icon": "SKL_ATKDEFUP_HPLOW_01",
+   "name": "Bull",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Increase ATK and DEF by 30% when your HP is at 15% or below.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_DISCOUNT_DEX_P",
+   "icon": "SKL_DISCOUNT_DEX",
+   "name": "Dexterity Discount",
+   "stars": 1,
+   "category": "Quest Support",
+   "description": "Halves the DEX necessary to equip weapons and/or armor.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ARRNG_STATUP_DIY_P",
+   "icon": "SKL_ARRNG_STATUP_DIY",
+   "name": "DIY Enthusiast",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Boosts DEF by 20% when equipped with a complete set of D.O.D ARMS (head, upper body, lower body).",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ATKUP_01_P",
+   "icon": "SKL_ATKUP_01",
+   "name": "Dumbbell",
+   "stars": 1,
+   "category": "Athleticism-related",
+   "description": "Increase ATK by 7%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ATKDEFUP_ELEC_01_P",
+   "icon": "SKL_ATKDEFUP_ELEC_01",
+   "name": "Electrifier",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Increases the ATK of electric weapons by 10%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_DEFUP_01_P",
+   "icon": "SKL_DEFUP_01",
+   "name": "Emerald",
+   "stars": 1,
+   "category": "Athleticism-related",
+   "description": "Increase DEF by 10%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ARRNG_STATUP_FAN_P",
+   "icon": "SKL_ARRNG_STATUP_FAN",
+   "name": "Fantasy Enthusiast",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Boosts DEF by 20% when equipped with a complete Candle Wolf set (head, upper body, lower body).",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ATKDEFUP_FIRE_01_P",
+   "icon": "SKL_ATKDEFUP_FIRE_01",
+   "name": "Firestarter",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Increases the ATK of fire weapons by 10%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_CRIUP_01_P",
+   "icon": "SKL_CRIUP_01",
+   "name": "Four-leaf Clover",
+   "stars": 1,
+   "category": "Athleticism-related",
+   "description": "Increase crit chance by 10%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_DODGEUP_01_P",
+   "icon": "SKL_DODGEUP_01",
+   "name": "Gymnast",
+   "stars": 1,
+   "category": "Athleticism-related",
+   "description": "Rate at which stamina decreases during Dodge goes down by 30%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_DISCOUNT_HP_P",
+   "icon": "SKL_DISCOUNT_HP",
+   "name": "Health Discount",
+   "stars": 1,
+   "category": "Quest Support",
+   "description": "Halves the HP necessary to equip weapons and/or armor.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ATKDEFUP_POISN_01_P",
+   "icon": "SKL_ATKDEFUP_POISN_01",
+   "name": "Hornet",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Increases the ATK of poison weapons by 10%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_DISCOUNT_LUK_P",
+   "icon": "SKL_DISCOUNT_LUK",
+   "name": "Luck Discount",
+   "stars": 1,
+   "category": "Quest Support",
+   "description": "Halves the LUK necessary to equip weapons and/or armor.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ARRNG_STATUP_MIL_P",
+   "icon": "SKL_ARRNG_STATUP_MIL",
+   "name": "Military Enthusiast",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Boosts DEF by 20% when equipped with a complete War Ensemble set (head, upper body, lower body).",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_DRAIN_02_P",
+   "icon": "SKL_DRAIN_02",
+   "name": "Mosquito",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Recover 3% of damage dealt as HP. The maximum recovery per hit is 3% of your max health.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_LESDMG_STEALTH_01_P",
+   "icon": "SKL_LESDMG_STEALTH_01",
+   "name": "Ninja",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Increases damage of suplexes while stealthed by 50%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ATKDEFUP_SLASH_01_P",
+   "icon": "SKL_ATKDEFUP_SLASH_01",
+   "name": "Samurai",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Increases the ATK of slashing weapons by 10%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_LESDMG_FALLING_01_P",
+   "icon": "SKL_LESDMG_FALLING_01",
+   "name": "Shock Absorber",
+   "stars": 1,
+   "category": "Resistance",
+   "description": "Reduce falling damage by 50%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_STMNUP_01_P",
+   "icon": "SKL_STMNUP_01",
+   "name": "Silver Heart",
+   "stars": 1,
+   "category": "Athleticism-related",
+   "description": "Increase max stamina by 50%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ATKDEFUP_STRK_01_P",
+   "icon": "SKL_ATKDEFUP_STRK_01",
+   "name": "Slugger",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Increases the ATK of blunt weapons by 10%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ARRNG_STATUP_SPO_P",
+   "icon": "SKL_ARRNG_STATUP_SPO",
+   "name": "Sports Enthusiast",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Boosts DEF by 20% when equipped with a complete M.I.L.K. set (head, upper body, lower body).",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_DISCOUNT_STM_P",
+   "icon": "SKL_DISCOUNT_STM",
+   "name": "Stamina Discount",
+   "stars": 1,
+   "category": "Quest Support",
+   "description": "Halves the STM necessary to equip weapons and/or armor.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_DISCOUNT_STR_P",
+   "icon": "SKL_DISCOUNT_STR",
+   "name": "Strength Discount",
+   "stars": 1,
+   "category": "Quest Support",
+   "description": "Halves the STR necessary to equip weapons and/or armor.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_ATKDEFUP_HPMAX_01_P",
+   "icon": "SKL_ATKDEFUP_HPMAX_01",
+   "name": "Superhero",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Increase ATK and DEF by 15% when at full health.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_HPUP_01_P",
+   "icon": "SKL_HPUP_01",
+   "name": "Tank",
+   "stars": 1,
+   "category": "Athleticism-related",
+   "description": "Increase max HP by 20%.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_DISCOUNT_VIT_P",
+   "icon": "SKL_DISCOUNT_VIT",
+   "name": "Vitality Discount",
+   "stars": 1,
+   "category": "Quest Support",
+   "description": "Halves the VIT necessary to equip weapons and/or armor.",
+   "stew_odds": 74
+  },
+  {
+   "id": "SKL_RGSPDUP_01_P",
+   "icon": "SKL_RGSPDUP_01",
+   "name": "Wolf",
+   "stars": 1,
+   "category": "Athleticism-related",
+   "description": "Increase rage gauge build-up by 50%.",
+   "stew_odds": 74
+  }
+ ],
+ "bags": [
+  {
+   "id": "SKL_ATKDEFHPUP_GUARD_P",
+   "icon": "SKL_ATKDEFHPUP_GUARD",
+   "name": "Chimera",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases Attack Power by 20%, Defense by 20%, and max HP by 20% when attached to Defense Fighters.",
+   "stew_odds": 4,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum"
+   ]
+  },
+  {
+   "id": "SKL_DEFUP_GAUGEUP_FORT_P",
+   "icon": "SKL_DEFUP_GAUGEUP_FORT",
+   "name": "Colonial Marine Corps",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases DEF by 30% and Rage Gauge by +1 during a Raid or when Defending.",
+   "stew_odds": 6,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum",
+    "Gold"
+   ]
+  },
+  {
+   "id": "SKL_ATKUP_GAUGEUP_FORT_P",
+   "icon": "SKL_ATKUP_GAUGEUP_FORT",
+   "name": "Invader",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases Attack Power by 30% and Rage Gauge by +1 during a Raid or when Defending.",
+   "stew_odds": 4,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum"
+   ]
+  },
+  {
+   "id": "SKL_ANTI_MSR_EX_P",
+   "icon": "SKL_ANTI_MSR_EX",
+   "name": "Not So Fast",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "When attached to Defense Fighters, Hunters, or Haters: Negates thrown Brainshroom fatigue, Fishy Fungus confusion, Guardshroom invincibility, Transparungus invisibility, and Stingshroom Attack Power boost; negates blindness effect from Frongus, Pickaxes and Irons. Slowmungus effect canceled after taking damage.",
+   "stew_odds": 4,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum"
+   ]
+  },
+  {
+   "id": "SKL_ATKDEFUP_GUARD_P",
+   "icon": "SKL_ATKDEFUP_GUARD",
+   "name": "Precocious Bouncer",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases ATK and DEF by 30% when attached to Defense Fighters.",
+   "stew_odds": 4,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum"
+   ]
+  },
+  {
+   "id": "SKL_REVIVALTIME_EXTEND_P",
+   "icon": "SKL_REVIVALTIME_EXTEND",
+   "name": "Pro Tip: Ambitious Spirit",
+   "stars": 5,
+   "category": "Quest Support",
+   "description": "Invincibility period after a Continue gains +7 seconds.",
+   "stew_odds": 4,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum"
+   ]
+  },
+  {
+   "id": "SKL_NODMG_CRI_P",
+   "icon": "SKL_NODMG_CRI",
+   "name": "Pro Tip: Conqueror's Seal",
+   "stars": 5,
+   "category": "Resistance",
+   "description": "Negate Critical damage.",
+   "stew_odds": 4,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum"
+   ]
+  },
+  {
+   "id": "SKL_LESDMG_STEALTH_04_P",
+   "icon": "SKL_LESDMG_STEALTH_04",
+   "name": "Pro Tip: Ninja Launcher",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increases damage of suplexes while stealthed by 10000%.",
+   "stew_odds": 4,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum"
+   ]
+  },
+  {
+   "id": "SKL_SLASHSTRIKE_SAVING_P",
+   "icon": "SKL_SLASHSTRIKE_SAVING",
+   "name": "Pro Tip: Saving Song",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "40% chance ammo and durability won't decrease with Normal Attacks of slashing and blunt weapons.",
+   "stew_odds": 4,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum"
+   ]
+  },
+  {
+   "id": "SKL_MUSHROOM_UP_P",
+   "icon": "SKL_MUSHROOM_UP",
+   "name": "Pro Tip: Spore Armor",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Power of the mushrooms explosion increased by 100% and eaten Mushroom effect time increased by 100%.",
+   "stew_odds": 4,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum"
+   ]
+  },
+  {
+   "id": "SKL_JUSTGUARD_EXTEND_P",
+   "icon": "SKL_JUSTGUARD_EXTEND",
+   "name": "Pro Tip: Time Weirdo",
+   "stars": 5,
+   "category": "Quest Support",
+   "description": "Perfect Guard easier when placed on a Fighter.",
+   "stew_odds": 4,
+   "bag_tiers": [
+    "Rainbow",
+    "Platinum"
+   ]
+  },
+  {
+   "id": "SKL_RESUP_DECDOWN_P",
+   "icon": "SKL_RESUP_DECDOWN",
+   "name": "Rich Family",
+   "stars": 5,
+   "category": "Resource Accrual",
+   "description": "Increases HP Recovery, Kill Coins gained from enemies and treasure, EXP/ABP gained, and SPLithium earned by 20%. Reduces the durability loss of equipment and weapons by 20%.",
+   "stew_odds": 2,
+   "bag_tiers": [
+    "Rainbow"
+   ]
+  },
+  {
+   "id": "SKL_SUPER_ALLOY_DZ_P",
+   "icon": "SKL_SUPER_ALLOY_DZ",
+   "name": "Superalloy Death Zam",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Deal 30% more damage to enemies when their HP is 70% or more. Increases fighters all basic parameters by 8%.",
+   "stew_odds": 2,
+   "bag_tiers": [
+    "Rainbow"
+   ]
+  },
+  {
+   "id": "SKL_ATKUPSURROUNDENEMY_P",
+   "icon": "SKL_ATKUPSURROUNDENEMY",
+   "name": "Crowd Pleaser",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Increases ATK by 10% per enemy when 1 - 5 enemies appear.",
+   "stew_odds": 8,
+   "bag_tiers": [
+    "Platinum",
+    "Gold"
+   ]
+  },
+  {
+   "id": "SKL_RESISTUP_ELEC_01_P",
+   "icon": "SKL_RESISTUP_ELEC_01",
+   "name": "Electric Duchess",
+   "stars": 4,
+   "category": "Resistance",
+   "description": "Increases Shock Res by 20%.",
+   "stew_odds": 8,
+   "bag_tiers": [
+    "Platinum",
+    "Gold"
+   ]
+  },
+  {
+   "id": "SKL_DISCOUNT_ALL_P",
+   "icon": "SKL_DISCOUNT_ALL",
+   "name": "Everything's On Sale",
+   "stars": 4,
+   "category": "Quest Support",
+   "description": "All stat requirements for weapons and armor become 80%.",
+   "stew_odds": 8,
+   "bag_tiers": [
+    "Platinum",
+    "Gold"
+   ]
+  },
+  {
+   "id": "SKL_RESISTUP_FIRE_01_P",
+   "icon": "SKL_RESISTUP_FIRE_01",
+   "name": "Fiery Captain",
+   "stars": 4,
+   "category": "Resistance",
+   "description": "Increases Fire Res by 20%.",
+   "stew_odds": 8,
+   "bag_tiers": [
+    "Platinum",
+    "Gold"
+   ]
+  },
+  {
+   "id": "SKL_NATURAL_HEAL_UP_P",
+   "icon": "SKL_NATURAL_HEAL_UP",
+   "name": "Oriental Medicine",
+   "stars": 4,
+   "category": "Quest Support",
+   "description": "Heals 15 HP a second.",
+   "stew_odds": 8,
+   "bag_tiers": [
+    "Platinum",
+    "Gold"
+   ]
+  },
+  {
+   "id": "SKL_PHOENIX_P",
+   "icon": "SKL_PHOENIX",
+   "name": "Phoenix",
+   "stars": 4,
+   "category": "Resistance",
+   "description": "Decreases damage from Fire attacks, and slightly recovers HP instead of taking Fire damage when attached to Defense Fighters, Hunters, or Haters.",
+   "stew_odds": 8,
+   "bag_tiers": [
+    "Platinum",
+    "Gold"
+   ]
+  },
+  {
+   "id": "SKL_DOWNDAMAGE_DOWN_01_P",
+   "icon": "SKL_DOWNDAMAGE_DOWN_01",
+   "name": "Play Dead",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Reduces damage received by 80% when knocked down.",
+   "stew_odds": 8,
+   "bag_tiers": [
+    "Platinum",
+    "Gold"
+   ]
+  },
+  {
+   "id": "SKL_RESISTUP_POISON_01_P",
+   "icon": "SKL_RESISTUP_POISON_01",
+   "name": "Scornful Susie",
+   "stars": 4,
+   "category": "Resistance",
+   "description": "Increases Poison Res by 20%.",
+   "stew_odds": 8,
+   "bag_tiers": [
+    "Platinum",
+    "Gold"
+   ]
+  },
+  {
+   "id": "SKL_GUARD_HEADSHOT_02_P",
+   "icon": "SKL_GUARD_HEADSHOT_02",
+   "name": "Super Helmet 2",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Negates additional damage received from headshots and increases Piercing Res +10% when equipped to Defenders, Hunters or Haters.",
+   "stew_odds": 8,
+   "bag_tiers": [
+    "Platinum",
+    "Gold"
+   ]
+  },
+  {
+   "id": "SKL_R_GAUGE_FORT_UP_02_P",
+   "icon": "SKL_R_GAUGE_FORT_UP_02",
+   "name": "Super Volcano",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "While defending, increases Rage Gauge by 2 when attached to a Defense Fighter.",
+   "stew_odds": 10,
+   "bag_tiers": [
+    "Platinum",
+    "Gold",
+    "Silver"
+   ]
+  },
+  {
+   "id": "SKL_HPUP_FORTGUARD_P",
+   "icon": "SKL_HPUP_FORTGUARD",
+   "name": "Golem",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Increases max HP of the Defender it's equipped to by 40%.",
+   "stew_odds": 10,
+   "bag_tiers": [
+    "Platinum",
+    "Gold",
+    "Silver"
+   ]
+  },
+  {
+   "id": "SKL_NOEYEDMG_FORTGUARD_P",
+   "icon": "SKL_NOEYEDMG_FORTGUARD",
+   "name": "Master Onion Cutter",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Negates the blindness effect from Frongus, Pickaxes and Irons if equipped to a Defense Fighter, Hunter or Hater.",
+   "stew_odds": 10,
+   "bag_tiers": [
+    "Platinum",
+    "Gold",
+    "Silver"
+   ]
+  },
+  {
+   "id": "SKL_GUARD_HEADSHOT_P",
+   "icon": "SKL_GUARD_HEADSHOT",
+   "name": "Super Helmet",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Reduces additional damage received from headshots by 80% when equipped to Defenders, Hunters or Haters.",
+   "stew_odds": 10,
+   "bag_tiers": [
+    "Platinum",
+    "Gold",
+    "Silver"
+   ]
+  },
+  {
+   "id": "SKL_ANTI_MSR_F_P",
+   "icon": "SKL_ANTI_MSR_F",
+   "name": "Brainmycin",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Negates the effects of thrown Brainshrooms when attached to Defense Fighters, Hunters, or Haters.",
+   "stew_odds": 12,
+   "bag_tiers": [
+    "Gold",
+    "Silver",
+    "Bronze"
+   ]
+  },
+  {
+   "id": "SKL_ANTI_MSR_G_P",
+   "icon": "SKL_ANTI_MSR_G",
+   "name": "Fishymycin",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Negates the effects of thrown Fishy Fungus when attached to Defense Fighters, Hunters, or Haters.",
+   "stew_odds": 12,
+   "bag_tiers": [
+    "Gold",
+    "Silver",
+    "Bronze"
+   ]
+  },
+  {
+   "id": "SKL_ANTI_MSR_D_P",
+   "icon": "SKL_ANTI_MSR_D",
+   "name": "Guardmycin",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Negates the effects of the enemy's GuardShroom.",
+   "stew_odds": 12,
+   "bag_tiers": [
+    "Gold",
+    "Silver",
+    "Bronze"
+   ]
+  },
+  {
+   "id": "SKL_ANTI_MSR_E_P",
+   "icon": "SKL_ANTI_MSR_E",
+   "name": "Skillmycin",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Negates the effects of the enemy's Transparungus.",
+   "stew_odds": 12,
+   "bag_tiers": [
+    "Gold",
+    "Silver",
+    "Bronze"
+   ]
+  },
+  {
+   "id": "SKL_ANTI_MSR_H_P",
+   "icon": "SKL_ANTI_MSR_H",
+   "name": "Slowmycin",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Negates the effects of Slowmungus when attached to Defense Fighters, Hunters, or Haters.",
+   "stew_odds": 12,
+   "bag_tiers": [
+    "Gold",
+    "Silver",
+    "Bronze"
+   ]
+  },
+  {
+   "id": "SKL_ANTI_MSR_I_P",
+   "icon": "SKL_ANTI_MSR_I",
+   "name": "Stingmycin",
+   "stars": 1,
+   "category": "Special Strengthening",
+   "description": "Negates the effects of Stingshroom when attached to Defense Fighters, Hunters, or Haters.",
+   "stew_odds": 12,
+   "bag_tiers": [
+    "Gold",
+    "Silver",
+    "Bronze"
+   ]
+  }
+ ],
+ "collab": [
+  {
+   "id": "SKL_RESUP_DECDOWN_01_P",
+   "icon": "SKL_RESUP_DECDOWN_01",
+   "name": "Naomi Detox",
+   "stars": 5,
+   "category": "Resource Accrual",
+   "description": "Increases Kill Coins gained from enemies and treasure, and SPLithium earned by 50%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_FIGHTER_STUP_02_P",
+   "icon": "SKL_FIGHTER_STUP_02",
+   "name": "Ultimate Fighter's Return",
+   "stars": 5,
+   "category": "Athleticism-related",
+   "description": "Increases fighters all basic parameters by 20%.",
+   "stew_odds": 2
+  },
+  {
+   "id": "SKL_RESUP_DECDOWN_00_P",
+   "icon": "SKL_RESUP_DECDOWN_00",
+   "name": "Bryan Zemeckis",
+   "stars": 4,
+   "category": "Resource Accrual",
+   "description": "Increases HP Recovery, Kill Coins gained from enemies and treasure, EXP/ABP gained, and SPLithium earned by 10%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SYLVIA_NMH_00_P",
+   "icon": "SKL_SYLVIA_NMH_00",
+   "name": "Queen B",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Equip a full set of matching armor for Attack Power +10%, critical hit rate +10% and 20% chance of taking 0 damage from an attack. (Excludes fire damage, etc.)",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SHINOBU_NMH_P",
+   "icon": "SKL_SHINOBU_NMH",
+   "name": "SHINOBU",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +20% for Katanas. 30% chance durability won't decrease with Normal Attacks.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_SYLVIA_NMH_P",
+   "icon": "SKL_SYLVIA_NMH",
+   "name": "SYLVIA CHRISTEL",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Equip a full set of matching armor for Attack Power +10%, critical hit rate +20% and 10% chance of taking 0 damage from an attack. (Excludes fire damage, etc.)",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_TRAVIS_NMH_P",
+   "icon": "SKL_TRAVIS_NMH",
+   "name": "TRAVIS TOUCHDOWN",
+   "stars": 4,
+   "category": "Special Strengthening",
+   "description": "Attack Power +20% for Machetes. Extra +30% increase after a Taunt (Taunt bonuses don't stack and reset after attacking). Equip a Machete to perform Taunts in NO MORE HEROES style!",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_FIGHTER_STUP_01_P",
+   "icon": "SKL_FIGHTER_STUP_01",
+   "name": "Ultimate Fighter",
+   "stars": 4,
+   "category": "Athleticism-related",
+   "description": "Increases fighters all basic parameters by 10%.",
+   "stew_odds": 4
+  },
+  {
+   "id": "SKL_BAD_GIRL_NMH_P",
+   "icon": "SKL_BAD_GIRL_NMH",
+   "name": "BAD GIRL",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +10% for M.I.L.K weapons and armor.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_DESTROYMAN_NMH_P",
+   "icon": "SKL_DESTROYMAN_NMH",
+   "name": "DESTROYMAN",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +10% for CANDLE WOLF weapons and armor.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_DR_PEACE_NMH_P",
+   "icon": "SKL_DR_PEACE_NMH",
+   "name": "DR. PEACE",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Slightly reduces reload time.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_HENRY_NMH_P",
+   "icon": "SKL_HENRY_NMH",
+   "name": "HENRY",
+   "stars": 3,
+   "category": "Athleticism-related",
+   "description": "Decreases Dash stamina consumption and Fatigue time by 30% and decreases Dodge stamina consumption by 30%. Plus, boosts Atk by 30% after a Perfect Guard. (Resets after one attack.)",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_HOLLY_SUMMERS_NMH_P",
+   "icon": "SKL_HOLLY_SUMMERS_NMH",
+   "name": "HOLLY SUMMERS",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +10% for WAR ENSEMBLE weapons and armor.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_JEANE_NMH_P",
+   "icon": "SKL_JEANE_NMH",
+   "name": "JEANE",
+   "stars": 3,
+   "category": "Quest Support",
+   "description": "Sets all equip requirements to 90% and boosts Atk +50% for Stealth Backdrop attacks.",
+   "stew_odds": 40
+  },
+  {
+   "id": "SKL_SPEED_BUSTER_NMH_P",
+   "icon": "SKL_SPEED_BUSTER_NMH",
+   "name": "SPEED BUSTER",
+   "stars": 3,
+   "category": "Special Strengthening",
+   "description": "Attack Power and Defense +10% for D.O.D. ARMS weapons and armor.",
+   "stew_odds": 40
+  }
+ ],
+ "excluded": [
+  {
+   "id": "SKL_ATKUP_DEFUP_P",
+   "icon": "SKL_ATKUP_DEFUP",
+   "name": "LET IT DIE",
+   "stars": 5,
+   "category": "Special Strengthening",
+   "description": "Increase ATK and DEF by 0.1% x Total Number of Deaths when placed on a Fighter.",
+   "stew_odds": 0
+  }
+ ]
+}

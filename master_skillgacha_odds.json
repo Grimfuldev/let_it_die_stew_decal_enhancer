@@ -1,0 +1,1458 @@
+[
+  {
+    "rowid": 1,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ADVENTURE_01_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 2,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ANTI_MSR_A_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 3,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ANTI_MSR_B_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 4,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ANTI_MSR_C_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 5,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ARCHERY_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 6,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ARCHERY_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 7,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ARCWELD_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 8,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ARCWELD_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 9,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ARRNG_STATUP_ALL_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 10,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ARRNG_STATUP_DIY_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 11,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ARRNG_STATUP_FAN_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 12,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ARRNG_STATUP_MIL_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 13,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ARRNG_STATUP_SPO_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 14,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ASLTRFL_BULLET_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 15,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKDEFUP_ELEC_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 16,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKDEFUP_FIRE_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 17,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKDEFUP_HPLOW_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 18,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKDEFUP_HPLOW_02_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 19,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKDEFUP_HPMAX_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 20,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKDEFUP_HPMAX_02_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 21,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKDEFUP_POISN_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 22,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKDEFUP_SLASH_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 23,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKDEFUP_STRK_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 24,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKUP_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 25,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKUP_02_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 26,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKUP_03_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 27,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKUP_ANTI_HIGHLV_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 28,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKUP_CRIUP_DEFDWN_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 29,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKUP_FORTGUARD_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 30,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKUP_NODMG_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 31,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATKUP_SANDS_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 32,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATK_CHARGED_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 33,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ATK_CRIATK_MONEYUP_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 34,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_BATTLEAXE_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 35,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_BAT_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 36,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_BAT_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 37,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_BIKE_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 38,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_BIKE_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 39,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_BOWLING_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 40,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_BOWLING_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 41,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_BOXGLOVE_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 42,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_BOXING_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 43,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_BTLAXE_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 44,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CHAINSAW_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 45,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CHNSAW_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 46,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CIRCLESAW_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 47,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CIRCLE_SAW_DISMANT_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 48,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CLAW_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 49,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CLAW_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 50,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CLEAVER_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 51,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CLEAVER_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 52,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CRIUP_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 53,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CRIUP_02_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 54,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CRIUP_03_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 55,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CRIUP_ATKUP_01_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 56,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CRIUP_DECDOWN_02_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 57,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CRI_ATKUP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 58,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CROSSBOW_ATK_UP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 59,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_CRSBOW_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 60,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DEATH_PROOF_03_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 61,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DEATH_PROOF_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 62,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DECELEC_01_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 63,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DECFIRE_01_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 64,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DEFUP_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 65,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DEFUP_02_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 66,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DEFUP_03_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 67,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DEFUP_NODMG_RND_01_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 68,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DISALL_ATKUP_HPDWN_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 69,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DISCOUNT_DEX_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 70,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DISCOUNT_HP_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 71,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DISCOUNT_LUK_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 72,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DISCOUNT_STM_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 73,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DISCOUNT_STR_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 74,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DISCOUNT_VIT_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 75,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DIY_UP_01_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 76,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DIY_UP_02_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 77,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DODGEUP_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 78,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DODGEUP_02_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 79,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DODGEUP_03_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 80,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DRAIN_01_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 81,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DRAIN_02_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 82,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DRILL_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 83,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_DRILL_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 84,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ELECTROBEAST_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 85,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_EMPHAND_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 86,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_EV_DISCOUNT_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 87,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_EXPLODE_DRAIN_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 88,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_EXPLODE_ENEMYKILL_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 89,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_E_BURST_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 90,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FAN_UP_01_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 91,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FAN_UP_02_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 92,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FASTEAT_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 93,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FAST_RELOAD_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 94,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FBATON_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 95,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FEMALE_GUNMAN_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 96,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FINAL_BLOW_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 97,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FIREANGEL_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 98,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FIREBATON_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 99,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FIREROD_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 100,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FIREROD_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 101,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FIREWKS_ATK_UP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 102,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FIREWRK_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 103,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FIRE_DISCOVERY_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 104,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FLAMERAD_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 105,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_FLAMERD_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 106,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_GUNMAN_01_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 107,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_HAMMER_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 108,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_HAMMER_ATK_UP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 109,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_HARD_STAN_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 110,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_HEADSHOTUP_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 111,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_HPUP_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 112,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_HPUP_02_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 113,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_HPUP_03_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 114,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ICEHOCKEY_ATK_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 115,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_IHOCKEY_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 116,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_IRON_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 117,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_IRON_ATK_UP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 118,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_JUST_GUARD_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 119,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_KATANA_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 120,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_KATANA_ATK_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 121,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_KNIFE_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 122,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_KNIFE_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 123,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_LESDMG_FALLING_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 124,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_LESDMG_FALLING_02_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 125,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_LESDMG_STEALTH_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 126,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_LESDMG_STEALTH_02_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 127,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_MACHETE_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 128,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_MACHETE_ATK_UP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 129,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_MIL_UP_01_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 130,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_MIL_UP_02_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 131,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_MORNSTAR_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 132,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_MSTAR_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 133,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_NAILGUN_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 134,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_NAILGUN_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 135,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_NTHEAL_ATDFUPHPMAX_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 136,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_PECKER_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 137,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_PECKER_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 138,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_PITCHING_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 139,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_PITCH_M_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 140,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_POISONGENERAL_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 141,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_POISONMASTER_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 142,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_QOH_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 143,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_RAGE_GAUGE_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 144,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_RESISTUP_SHOOT_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 145,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_RESISTUP_SLASH_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 146,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_RESISTUP_STRIKE_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 147,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_REVOLVER_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 148,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_REVOLVR_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 149,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_RGSPDUP_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 150,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_RGSPDUP_02_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 151,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_RGSPUP_RDURDOWN_01_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 152,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_RIFLE_ATK_UP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 153,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ROCKET_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 154,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ROCKET_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 155,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_R_GAUGE_FORT_UP_01_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 156,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SABER_ATK_UP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 157,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SABRE_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 158,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SAMANTHA_K7_02_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 159,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SANDBAG_01_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 160,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SEARCHUP_ITEM_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 161,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SEASONING_M_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 162,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SHISHIMAI_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 163,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SHORT_DROPKICK_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 164,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SHOTGUN_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 165,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SHOTGUN_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 166,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SHOVEL_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 167,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SHOVEL_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 168,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SISIMAI_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 169,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SNOWWHITE_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 170,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SNPRRFL_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 171,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SNPRRFL_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 172,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SPDUP_01_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 173,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SPDUP_02_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 174,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SPDUP_03_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 175,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SPEAR_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 176,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SPEAR_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 177,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SPO_UP_01_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 178,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SPO_UP_02_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 179,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SQRTIMBER_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 180,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_STEALTHUP_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 181,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_STIMBER_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 182,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_STMNUP_01_P",
+    "odds": 74,
+    "display_priority": 0
+  },
+  {
+    "rowid": 183,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_STMNUP_02_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 184,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_STRENGTHEN_BODY_01_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 185,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_STRENGTHEN_BODY_B_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 186,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_STUNROD_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 187,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_STUNROD_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 188,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_STUP_FEAT_HPCUREUP_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 189,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_ST_AILMENT_DIS_01_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 190,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SUPER_ALLOY_P",
+    "odds": 72,
+    "display_priority": 0
+  },
+  {
+    "rowid": 191,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SWORD_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 192,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SWORD_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 193,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_SYLVIA_NMH_02_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 194,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_TASERGUN_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 195,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_THDRROD_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 196,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_THRWKNIFE_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 197,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_THUNDERRD_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 198,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_TOHEAVEN_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 199,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_TSRGUN_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 200,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_TWKNIFE_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 201,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_WARRIORS_01_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 202,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_WDMG_DOWN_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 203,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_WEP_SPDUP_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 204,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_WHITEFEATHER_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 205,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_WWEP_ATKUP_01_P",
+    "odds": 40,
+    "display_priority": 0
+  },
+  {
+    "rowid": 206,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_WWEP_ATKUP_EX_01_P",
+    "odds": 2,
+    "display_priority": 0
+  },
+  {
+    "rowid": 207,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_YOYO_ABILITY_UP_P",
+    "odds": 4,
+    "display_priority": 0
+  },
+  {
+    "rowid": 208,
+    "id": "SKLGACH_NORMAL_OFFLINE",
+    "sklid": "SKL_YOYO_ATKUP_01_P",
+    "odds": 4,
+    "display_priority": 0
+  }
+]
